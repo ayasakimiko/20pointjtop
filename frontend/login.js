@@ -73,12 +73,20 @@ async function handleAuth(event, action, loginType = null) {
 
         if (data.success) {
             showPopup('success', 'สำเร็จ!', data.message);
-            // ล้างข้อมูลฟอร์ม
             event.target.reset();
 
-            // ถ้าสมัครเสร็จหรือเปลี่ยนรหัสเสร็จ ให้เด้งกลับไปหน้าล็อกอินผู้ใช้
             if (action === 'register' || action === 'reset') {
                 setTimeout(() => switchTab('user-login'), 1500);
+            } else if (action === 'login') {
+                // บันทึกชื่อผู้ใช้และบทบาทลงใน Session Storage
+                const usernameInput = loginType === 'admin' ? 'admin-username' : 'user-username';
+                sessionStorage.setItem('username', document.getElementById(usernameInput).value);
+                sessionStorage.setItem('role', loginType);
+
+                // หน่วงเวลา 1.5 วินาทีเพื่อให้ผู้ใช้เห็น Popup ก่อนเปลี่ยนหน้าไป index.html
+                setTimeout(() => {
+                    window.location.href = 'index.html';
+                }, 1500);
             }
         } else {
             showPopup('error', 'อ๊ะ!', data.message);
