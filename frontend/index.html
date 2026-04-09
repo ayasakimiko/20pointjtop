@@ -4,6 +4,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
 <style>
 *, *::before, *::after {
   box-sizing: border-box;
@@ -642,6 +643,224 @@ tbody tr:hover td {
   margin-top: 1px;
   opacity: 0.85;
 }
+
+/* ── Packet Detail Modal ── */
+#pkt-detail-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(15,23,42,0.50);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  z-index: 1100;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+#pkt-detail-overlay.open { display: flex; animation: fadeIn .18s ease; }
+
+.pkt-detail-box {
+  background: var(--white);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-lg);
+  width: 100%;
+  max-width: 560px;
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  animation: slideUp .2s ease;
+}
+
+.pkt-detail-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 18px 20px 14px;
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+}
+
+.pkt-detail-header-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.pkt-detail-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  background: var(--blue-50);
+  border: 1px solid var(--blue-200);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  flex-shrink: 0;
+}
+
+.pkt-detail-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: -0.02em;
+}
+
+.pkt-detail-subtitle {
+  font-size: 11px;
+  color: var(--text-muted);
+  margin-top: 1px;
+}
+
+.pkt-detail-close {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--text-muted);
+  font-size: 18px;
+  padding: 4px;
+  border-radius: 6px;
+  line-height: 1;
+  transition: all .15s;
+}
+.pkt-detail-close:hover { background: var(--surface); color: var(--text-primary); }
+
+.pkt-detail-badges {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 12px 20px;
+  border-bottom: 1px solid var(--border);
+  background: var(--surface);
+  flex-shrink: 0;
+}
+
+.pkt-detail-size {
+  margin-left: auto;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: var(--font-mono);
+  color: var(--text-muted);
+  background: var(--white);
+  border: 1px solid var(--border-mid);
+  border-radius: 20px;
+  padding: 3px 11px;
+}
+
+.pkt-route {
+  margin: 14px 20px;
+  border: 1px solid var(--border-mid);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  background: var(--surface);
+  flex-shrink: 0;
+}
+
+.pkt-route-label {
+  font-size: 9.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  color: var(--text-muted);
+  margin-bottom: 10px;
+}
+
+.pkt-route-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.pkt-route-node {
+  flex: 1;
+  background: var(--white);
+  border: 1px solid var(--border-mid);
+  border-radius: var(--radius-sm);
+  padding: 10px 12px;
+  text-align: center;
+}
+
+.pkt-route-node-label {
+  font-size: 9px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  color: var(--text-faint);
+  margin-bottom: 4px;
+}
+
+.pkt-route-node-ip {
+  font-size: 14px;
+  font-weight: 700;
+  font-family: var(--font-mono);
+  color: var(--text-primary);
+  letter-spacing: -0.01em;
+}
+
+.pkt-route-node-port {
+  font-size: 11px;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  margin-top: 2px;
+}
+
+.pkt-route-arrow {
+  font-size: 18px;
+  color: var(--blue-400);
+  flex-shrink: 0;
+}
+
+.pkt-info-table {
+  overflow-y: auto;
+  flex: 1;
+  padding: 0 20px 16px;
+}
+
+.pkt-info-label {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-muted);
+  margin: 12px 0 8px;
+}
+
+.pkt-info-grid {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.pkt-info-row {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  border-bottom: 1px solid var(--border);
+}
+.pkt-info-row:last-child { border-bottom: none; }
+
+.pkt-info-key {
+  padding: 9px 14px;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-muted);
+  background: var(--surface);
+  border-right: 1px solid var(--border);
+}
+
+.pkt-info-val {
+  padding: 9px 14px;
+  font-size: 12px;
+  font-family: var(--font-mono);
+  color: var(--text-primary);
+  word-break: break-all;
+}
+
+.pkt-detail-footer {
+  padding: 12px 20px;
+  border-top: 1px solid var(--border);
+  display: flex;
+  justify-content: flex-end;
+  flex-shrink: 0;
+}
 </style>
 
 <div class="dash">
@@ -764,7 +983,15 @@ tbody tr:hover td {
   <div class="table-card">
     <div class="table-header">
       <span class="chart-title" style="margin:0;">แพ็กเก็ตล่าสุด</span>
-      <div class="filter-row" id="filter-row">
+      <div style="display:flex;align-items:center;gap:10px;">
+        <div style="position:relative;">
+          <span style="position:absolute;left:10px;top:50%;transform:translateY(-50%);color:var(--blue-400);pointer-events:none;display:flex;"><i data-lucide="search" style="width:14px;height:14px;"></i></span>
+          <input id="pkt-search" type="text" placeholder="ค้นหา IP, Port, Protocol..."
+            oninput="renderTable()"
+            style="padding:6px 12px 6px 30px;border:1px solid var(--border-mid);border-radius:20px;font-size:12px;font-family:var(--font-mono);background:var(--surface);color:var(--text-primary);outline:none;width:220px;transition:border-color .15s;"
+            onfocus="this.style.borderColor='var(--blue-500)'" onblur="this.style.borderColor='var(--border-mid)'">
+        </div>
+        <div class="filter-row" id="filter-row">
         <button class="filter-btn active" onclick="setFilter('ALL',this)">ทั้งหมด</button>
         <button class="filter-btn" onclick="setFilter('HTTPS',this)">HTTPS</button>
         <button class="filter-btn" onclick="setFilter('HTTP',this)">HTTP</button>
@@ -773,6 +1000,7 @@ tbody tr:hover td {
         <button class="filter-btn" onclick="setFilter('TCP',this)">TCP</button>
         <button class="filter-btn" onclick="setFilter('UDP',this)">UDP</button>
         <button class="filter-btn" onclick="setFilter('ICMP',this)">ICMP</button>
+      </div>
       </div>
     </div>
     <table>
@@ -792,6 +1020,31 @@ tbody tr:hover td {
       </thead>
       <tbody id="packet-table"></tbody>
     </table>
+  </div>
+
+  <!-- Packet Detail Modal -->
+  <div id="pkt-detail-overlay" onclick="if(event.target===this)closePktDetail()">
+    <div class="pkt-detail-box">
+      <div class="pkt-detail-header">
+        <div class="pkt-detail-header-left">
+          <div class="pkt-detail-icon"><i data-lucide="scan-search" style="width:18px;height:18px;color:var(--blue-500);"></i></div>
+          <div>
+            <div class="pkt-detail-title">Packet Detail</div>
+            <div class="pkt-detail-subtitle">รายละเอียด packet</div>
+          </div>
+        </div>
+        <button class="pkt-detail-close" onclick="closePktDetail()"><i data-lucide="x" style="width:16px;height:16px;"></i></button>
+      </div>
+      <div class="pkt-detail-badges" id="pkt-detail-badges"></div>
+      <div class="pkt-route" id="pkt-detail-route"></div>
+      <div class="pkt-info-table">
+        <div class="pkt-info-label">ข้อมูลทั้งหมด</div>
+        <div class="pkt-info-grid" id="pkt-detail-grid"></div>
+      </div>
+      <div class="pkt-detail-footer">
+        <button class="btn-start-go" style="background:var(--blue-600);" onclick="closePktDetail()">ปิด</button>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -920,30 +1173,43 @@ tbody tr:hover td {
       badge.style.display = 'none';
     }
     if (alertLog.length === 0) {
-      box.innerHTML = `<div class="alert-row alert-info"><span class="alert-icon">ℹ</span><div>ยังไม่มีการแจ้งเตือน</div></div>`;
+      box.innerHTML = `<div class="alert-row alert-info"><span class="alert-icon" style="color:var(--blue-500);"><i data-lucide="info" style="width:14px;height:14px;"></i></span><div>ยังไม่มีการแจ้งเตือน</div></div>`;
+      lucide.createIcons();
       return;
     }
     box.innerHTML = alertLog.map((a, i) => `
       <div class="alert-row alert-${a.type}" style="margin-bottom:${i < alertLog.length-1 ? '5' : '0'}px;">
-        <span class="alert-icon">${a.type === 'danger' ? '✕' : a.type === 'warn' ? '⚠' : 'ℹ'}</span>
+        <span class="alert-icon" style="color:${a.type==='danger'?'#ef4444':a.type==='warn'?'#f59e0b':'var(--blue-500)'}">${a.type==='danger'?'<i data-lucide="x-circle" style="width:14px;height:14px;"></i>':a.type==='warn'?'<i data-lucide="alert-triangle" style="width:14px;height:14px;"></i>':'<i data-lucide="info" style="width:14px;height:14px;"></i>'}</span>
         <div style="flex:1;min-width:0;">
           <div style="word-break:break-word;">${a.message}</div>
           <div style="font-size:10px;opacity:0.65;margin-top:2px;">${a.time}</div>
         </div>
       </div>
     `).join('');
+    lucide.createIcons();
   }
 
   function renderTable() {
     const tbody = document.getElementById('packet-table');
-    const filtered = currentFilter === 'ALL' ? packets : packets.filter(p => p.protocol === currentFilter);
+    const q = (document.getElementById('pkt-search')?.value || '').trim().toLowerCase();
+    let filtered = currentFilter === 'ALL' ? packets : packets.filter(p => p.protocol === currentFilter);
+    if (q) {
+      filtered = filtered.filter(p =>
+        (p.srcIP   || '').toLowerCase().includes(q) ||
+        (p.dstIP   || '').toLowerCase().includes(q) ||
+        (p.protocol|| '').toLowerCase().includes(q) ||
+        String(p.dstPort || '').includes(q)         ||
+        String(p.srcPort || '').includes(q)         ||
+        (p.tlsVersion || '').toLowerCase().includes(q)
+      );
+    }
     tbody.innerHTML = filtered.slice(0, MAX_ROWS).map(p => {
       const pktAlert = alertLog.find(a => a.pktId === p.id);
       const alertCell = pktAlert
         ? `<span class="pill pill-alert-${pktAlert.type}">${pktAlert.message.slice(0,22)}</span>`
         : `<span class="pill pill-alert-none">—</span>`;
       return `
-      <tr${pktAlert ? ` style="background:${pktAlert.type==='danger'?'#fff8f8':'#fffcf0'}"` : ''}>
+      <tr style="cursor:pointer;${pktAlert ? `background:${pktAlert.type==='danger'?'#fff8f8':'#fffcf0'}` : ''}" onclick="openPktDetail(${p.id})">
         <td>${p.id}</td>
         <td>${p.time}</td>
         <td>${p.srcIP}</td>
@@ -952,10 +1218,11 @@ tbody tr:hover td {
         <td>${p.dstPort || '-'}</td>
         <td>${p.size}</td>
         <td>${p.tlsVersion || '-'}</td>
-        <td><span class="pill ${p.encrypted ? 'pill-enc' : 'pill-noenc'}">${p.encrypted ? 'Encrypted' : 'Unencrypted'}</span></td>
+        <td><span class="pill ${p.encrypted ? 'pill-enc' : 'pill-noenc'}" style="display:inline-flex;align-items:center;gap:3px;">${p.encrypted ? '<i data-lucide="lock" style="width:9px;height:9px;"></i> Encrypted' : '<i data-lucide="lock-open" style="width:9px;height:9px;"></i> Unencrypted'}</span></td>
         <td>${alertCell}</td>
       </tr>`;
     }).join('');
+    lucide.createIcons();
   }
 
   function updateMetrics(stats) {
@@ -1203,5 +1470,70 @@ tbody tr:hover td {
     renderTable();
   }
 
+  function openPktDetail(id) {
+    const p = packets.find(x => x.id === id);
+    if (!p) return;
+    const pktAlert = alertLog.find(a => a.pktId === id);
+
+    // ── badges ──
+    const statusClass = pktAlert ? (pktAlert.type === 'danger' ? 'pill-http' : 'pill-udp') : 'pill-https';
+    const statusText  = pktAlert ? (pktAlert.type === 'danger' ? 'DANGER' : 'WARN') : 'OK';
+    const encBadge    = p.encrypted
+      ? `<span class="pill pill-https" style="display:inline-flex;align-items:center;gap:4px;"><i data-lucide="lock" style="width:10px;height:10px;"></i> Encrypted</span>`
+      : `<span class="pill pill-http" style="display:inline-flex;align-items:center;gap:4px;"><i data-lucide="lock-open" style="width:10px;height:10px;"></i> Unencrypted</span>`;
+    document.getElementById('pkt-detail-badges').innerHTML = `
+      <span class="pill ${statusClass}">${statusText}</span>
+      <span class="pill ${protoClass(p.protocol)}">${p.protocol}</span>
+      ${encBadge}
+      <span class="pkt-detail-size">${p.size} B</span>
+    `;
+
+    // ── route ──
+    document.getElementById('pkt-detail-route').innerHTML = `
+      <div class="pkt-route-label">NETWORK ROUTE</div>
+      <div class="pkt-route-row">
+        <div class="pkt-route-node">
+          <div class="pkt-route-node-label">SOURCE</div>
+          <div class="pkt-route-node-ip">${p.srcIP || '-'}</div>
+          <div class="pkt-route-node-port">Port ${p.srcPort || '-'}</div>
+        </div>
+        <div class="pkt-route-arrow">&#8594;</div>
+        <div class="pkt-route-node">
+          <div class="pkt-route-node-label">DESTINATION</div>
+          <div class="pkt-route-node-ip">${p.dstIP || '-'}</div>
+          <div class="pkt-route-node-port">Port ${p.dstPort || '-'}</div>
+        </div>
+      </div>
+    `;
+
+    // ── info rows ──
+    const rows = [
+      ['Packet ID',      `#${p.id}`],
+      ['Timestamp',      p.time || '-'],
+      ['Protocol',       p.protocol || '-'],
+      ['Size',           `${p.size} B`],
+      ['Encrypted',      p.encrypted ? 'true' : 'false'],
+      ['TLS Version',    p.tlsVersion || '—'],
+      ['Cipher Suite',   p.cipherSuite || '—'],
+      ['Alert Type',     pktAlert ? pktAlert.type.toUpperCase() : '—'],
+      ['Alert Message',  pktAlert ? pktAlert.message : '—'],
+      ['Payload Preview',p.encrypted ? '[Encrypted]' : (p.payload || '[Plain]')],
+    ];
+    document.getElementById('pkt-detail-grid').innerHTML = rows.map(([k, v]) => `
+      <div class="pkt-info-row">
+        <div class="pkt-info-key">${k}</div>
+        <div class="pkt-info-val">${v}</div>
+      </div>
+    `).join('');
+
+    document.getElementById('pkt-detail-overlay').classList.add('open');
+    lucide.createIcons();
+  }
+
+  function closePktDetail() {
+    document.getElementById('pkt-detail-overlay').classList.remove('open');
+  }
+
   setAlertsBox('กำลังเชื่อมต่อกับเซิร์ฟเวอร์...', 'info');
+  lucide.createIcons();
 </script>
