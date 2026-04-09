@@ -1,316 +1,698 @@
-<h2 class="sr-only">Real-time Encrypted Packet Visualization Dashboard — แดชบอร์ดแสดงสถิติแพ็กเก็ตเครือข่ายแบบ real-time
+﻿<h2 class="page-subtitle">Real-time Encrypted Packet Visualization Dashboard<span> — แดชบอร์ดแสดงสถิติแพ็กเก็ตเครือข่ายแบบ real-time</span>
 </h2>
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
-  * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-  body {
-    font-family: var(--font-sans);
-  }
+:root {
+  --blue-50:  #eff6ff;
+  --blue-100: #dbeafe;
+  --blue-200: #bfdbfe;
+  --blue-300: #93c5fd;
+  --blue-400: #60a5fa;
+  --blue-500: #3b82f6;
+  --blue-600: #2563eb;
+  --blue-700: #1d4ed8;
+  --blue-800: #1e40af;
+  --blue-900: #1e3a8a;
 
-  .dash {
-    padding: 16px;
-  }
+  --white:   #ffffff;
+  --surface: #f1f5fb;
+  --surface2: #e8eef7;
 
-  .topbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 16px;
-  }
+  --border:        rgba(37,99,235,0.10);
+  --border-mid:    rgba(37,99,235,0.20);
+  --border-strong: rgba(37,99,235,0.35);
 
-  .topbar-left {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
+  --text-primary:   #0f172a;
+  --text-secondary: #1e40af;
+  --text-muted:     #64748b;
+  --text-faint:     #94a3b8;
 
-  .logo {
-    font-size: 15px;
-    font-weight: 500;
-    color: var(--color-text-primary);
-  }
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Courier New', monospace;
 
-  .badge-live {
-    background: #e24b4a;
-    color: #fff;
-    font-size: 11px;
-    padding: 2px 8px;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    gap: 4px;
-  }
+  --radius-sm: 8px;
+  --radius:    12px;
+  --radius-lg: 16px;
+  --radius-xl: 20px;
 
-  .dot {
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    background: #fff;
-    animation: blink 1s infinite;
-  }
+  --shadow-xs: 0 1px 2px rgba(15,23,42,0.04);
+  --shadow-sm: 0 1px 3px rgba(15,23,42,0.05), 0 2px 8px rgba(37,99,235,0.06);
+  --shadow:    0 2px 8px rgba(15,23,42,0.07), 0 4px 20px rgba(37,99,235,0.09);
+  --shadow-lg: 0 8px 32px rgba(15,23,42,0.12), 0 2px 8px rgba(37,99,235,0.08);
+}
 
-  @keyframes blink {
+html, body { height: 100%; }
 
-    0%,
-    100% {
-      opacity: 1
-    }
+body {
+  font-family: var(--font-sans);
+  background: var(--surface);
+  color: var(--text-primary);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
 
-    50% {
-      opacity: .3
-    }
-  }
+.page-subtitle {
+  font-size: 11.5px;
+  font-weight: 500;
+  color: var(--text-muted);
+  text-align: center;
+  padding: 10px 0 14px;
+  letter-spacing: 0.03em;
+  background: var(--white);
+  border-bottom: 1px solid var(--border);
+}
 
-  .topbar-right {
-    display: flex;
-    gap: 8px;
-    align-items: center;
-  }
+.page-subtitle span {
+  color: var(--blue-500);
+  font-weight: 400;
+}
 
-  .badge-iface {
-    background: var(--color-background-secondary);
-    border: 0.5px solid var(--color-border-tertiary);
-    border-radius: var(--border-radius-md);
-    padding: 4px 10px;
-    font-size: 12px;
-    color: var(--color-text-secondary);
-  }
+/* ── Dashboard wrapper ── */
+.dash {
+  padding: 20px;
+  max-width: 1600px;
+  margin: 0 auto;
+}
 
-  .btn-stop {
-    background: transparent;
-    border: 0.5px solid var(--color-border-secondary);
-    border-radius: var(--border-radius-md);
-    padding: 5px 14px;
-    font-size: 13px;
-    cursor: pointer;
-    color: var(--color-text-primary);
-  }
+/* ── Topbar ── */
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 12px 20px;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+}
 
-  .btn-stop:hover {
-    background: var(--color-background-secondary);
-  }
+.topbar-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
 
-  .metrics {
-    display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 10px;
-    margin-bottom: 14px;
-  }
+.logo {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--blue-900);
+  letter-spacing: -0.03em;
+}
 
-  .metric-card {
-    background: var(--color-background-secondary);
-    border-radius: var(--border-radius-md);
-    padding: 12px 14px;
-  }
+.logo span {
+  color: var(--blue-500);
+}
 
-  .metric-label {
-    font-size: 11px;
-    color: var(--color-text-secondary);
-    margin-bottom: 4px;
-    text-transform: uppercase;
-    letter-spacing: .04em;
-  }
+.badge-live {
+  background: linear-gradient(135deg, #ef4444, #dc2626);
+  color: #fff;
+  font-size: 10px;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  letter-spacing: 0.06em;
+  box-shadow: 0 2px 8px rgba(239,68,68,0.30);
+}
 
-  .metric-val {
-    font-size: 22px;
-    font-weight: 500;
-    color: var(--color-text-primary);
-  }
+.dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.90);
+  animation: blink 1s infinite;
+}
 
-  .metric-sub {
-    font-size: 11px;
-    color: var(--color-text-secondary);
-    margin-top: 2px;
-  }
+@keyframes blink {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50%       { opacity: .4; transform: scale(0.75); }
+}
 
-  .metric-val.green {
-    color: #1d9e75;
-  }
+.topbar-right {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
 
-  .metric-val.red {
-    color: #e24b4a;
-  }
+.badge-iface {
+  background: var(--blue-50);
+  border: 1px solid var(--blue-200);
+  border-radius: var(--radius-sm);
+  padding: 5px 12px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--blue-700);
+  font-family: var(--font-mono);
+}
 
-  .metric-val.amber {
-    color: #ba7517;
-  }
+#clock {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  padding: 5px 10px;
+  background: var(--surface);
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+}
 
-  .charts-row {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 12px;
-    margin-bottom: 12px;
-  }
+.btn-stop {
+  background: var(--blue-600);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius-sm);
+  padding: 7px 18px;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: var(--font-sans);
+  cursor: pointer;
+  transition: all .2s;
+  box-shadow: 0 2px 8px rgba(37,99,235,0.25);
+}
 
-  .chart-card {
-    background: var(--color-background-primary);
-    border: 0.5px solid var(--color-border-tertiary);
-    border-radius: var(--border-radius-lg);
-    padding: 14px 16px;
-  }
+.btn-stop:hover {
+  background: var(--blue-700);
+  box-shadow: 0 4px 14px rgba(37,99,235,0.35);
+  transform: translateY(-1px);
+}
 
-  .chart-title {
-    font-size: 13px;
-    font-weight: 500;
-    color: var(--color-text-primary);
-    margin-bottom: 12px;
-  }
+/* ── Capture Modal ── */
+.modal-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.45);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 24px;
+}
 
-  .charts-row2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 12px;
-    margin-bottom: 12px;
-  }
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border: 0;
+}
 
-  .table-card {
-    background: var(--color-background-primary);
-    border: 0.5px solid var(--color-border-tertiary);
-    border-radius: var(--border-radius-lg);
-    padding: 14px 16px;
-    margin-bottom: 12px;
-  }
+.modal-overlay.open {
+  display: flex;
+  animation: fadeIn .18s ease;
+}
 
-  .table-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 10px;
-  }
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
 
-  .filter-row {
-    display: flex;
-    gap: 6px;
-  }
+.modal-box {
+  background: var(--white);
+  border: 1px solid var(--border-mid);
+  border-radius: var(--radius-xl);
+  padding: 28px 28px 24px;
+  min-width: 360px;
+  max-width: 460px;
+  width: 100%;
+  box-shadow: var(--shadow-lg);
+  animation: slideUp .2s ease;
+}
 
-  .filter-btn {
-    background: transparent;
-    border: 0.5px solid var(--color-border-tertiary);
-    border-radius: var(--border-radius-md);
-    padding: 3px 10px;
-    font-size: 11px;
-    cursor: pointer;
-    color: var(--color-text-secondary);
-  }
+@keyframes slideUp {
+  from { transform: translateY(14px); opacity: 0; }
+  to   { transform: translateY(0);    opacity: 1; }
+}
 
-  .filter-btn.active {
-    background: var(--color-background-info);
-    color: var(--color-text-info);
-    border-color: var(--color-border-info);
-  }
+.modal-title {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: var(--text-primary);
+  letter-spacing: -0.02em;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    font-size: 12px;
-  }
+.modal-title::before {
+  content: '';
+  width: 4px;
+  height: 18px;
+  background: linear-gradient(180deg, var(--blue-400), var(--blue-700));
+  border-radius: 2px;
+  flex-shrink: 0;
+}
 
-  th {
-    text-align: left;
-    color: var(--color-text-secondary);
-    font-weight: 400;
-    padding: 4px 8px;
-    border-bottom: 0.5px solid var(--color-border-tertiary);
-    font-size: 11px;
-  }
+.modal-section-label {
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  margin-bottom: 9px;
+}
 
-  td {
-    padding: 6px 8px;
-    border-bottom: 0.5px solid var(--color-border-tertiary);
-    color: var(--color-text-primary);
-    font-family: var(--font-mono);
-    font-size: 11px;
-  }
+.iface-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-bottom: 18px;
+}
 
-  tr:last-child td {
-    border-bottom: none;
-  }
+.iface-chip {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 12px;
+  border: 1px solid var(--border-mid);
+  border-radius: var(--radius);
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: var(--font-sans);
+  color: var(--text-muted);
+  user-select: none;
+  transition: all .15s;
+}
 
-  tr:hover td {
-    background: var(--color-background-secondary);
-  }
+.iface-chip:hover {
+  border-color: var(--blue-300);
+  background: var(--blue-50);
+  color: var(--text-primary);
+}
 
-  .pill {
-    display: inline-block;
-    padding: 1px 7px;
-    border-radius: 10px;
-    font-size: 10px;
-    font-weight: 500;
-  }
+.iface-chip input[type=checkbox] {
+  accent-color: var(--blue-500);
+  width: 14px;
+  height: 14px;
+}
 
-  .pill-https {
-    background: #e1f5ee;
-    color: #0f6e56;
-  }
+.iface-chip:has(input:checked) {
+  border-color: var(--blue-500);
+  background: var(--blue-50);
+  color: var(--blue-800);
+  font-weight: 600;
+}
 
-  .pill-http {
-    background: #fcebeb;
-    color: #a32d2d;
-  }
+.proto-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 20px;
+}
 
-  .pill-dns {
-    background: #e6f1fb;
-    color: #185fa5;
-  }
+.proto-chip {
+  padding: 5px 14px;
+  border-radius: 20px;
+  border: 1px solid var(--border-mid);
+  font-size: 12px;
+  font-weight: 500;
+  font-family: var(--font-sans);
+  cursor: pointer;
+  user-select: none;
+  color: var(--text-muted);
+  transition: all .15s;
+}
 
-  .pill-ssh {
-    background: #eeedfe;
-    color: #3c3489;
-  }
+.proto-chip:hover {
+  border-color: var(--blue-400);
+  color: var(--blue-700);
+  background: var(--blue-50);
+}
 
-  .pill-tcp {
-    background: #f1efe8;
-    color: #5f5e5a;
-  }
+.proto-chip.selected {
+  border-color: var(--blue-600);
+  background: var(--blue-600);
+  color: #fff;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(37,99,235,0.25);
+}
 
-  .pill-enc {
-    background: #eaf3de;
-    color: #3b6d11;
-  }
+.modal-actions {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+  padding-top: 4px;
+}
 
-  .pill-noenc {
-    background: #fcebeb;
-    color: #a32d2d;
-  }
+.btn-cancel {
+  padding: 8px 18px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-mid);
+  background: transparent;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: var(--font-sans);
+  cursor: pointer;
+  color: var(--text-muted);
+  transition: all .15s;
+}
 
-  .alert-row {
-    display: flex;
-    align-items: flex-start;
-    gap: 8px;
-    padding: 8px 12px;
-    border-radius: var(--border-radius-md);
-    margin-bottom: 6px;
-    font-size: 12px;
-  }
+.btn-cancel:hover {
+  background: var(--surface);
+  color: var(--text-primary);
+}
 
-  .alert-warn {
-    background: #faeeda;
-    color: #854f0b;
-  }
+.btn-start-go {
+  padding: 8px 24px;
+  border-radius: var(--radius-sm);
+  border: none;
+  background: linear-gradient(135deg, var(--blue-500), var(--blue-700));
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: var(--font-sans);
+  cursor: pointer;
+  transition: all .2s;
+  box-shadow: 0 2px 10px rgba(37,99,235,0.30);
+}
 
-  .alert-danger {
-    background: #fcebeb;
-    color: #a32d2d;
-  }
+.btn-start-go:hover {
+  background: linear-gradient(135deg, var(--blue-600), var(--blue-800));
+  box-shadow: 0 4px 16px rgba(37,99,235,0.40);
+  transform: translateY(-1px);
+}
 
-  .alert-info {
-    background: #e6f1fb;
-    color: #185fa5;
-  }
+/* ── Metrics ── */
+.metrics {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+  margin-bottom: 16px;
+}
 
-  .alert-icon {
-    font-size: 14px;
-    flex-shrink: 0;
-    margin-top: 1px;
-  }
+.metric-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 18px 20px 16px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  transition: box-shadow .2s, transform .2s;
+}
+
+.metric-card:hover {
+  box-shadow: var(--shadow);
+  transform: translateY(-2px);
+}
+
+.metric-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--blue-300), var(--blue-500));
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+}
+
+.metric-card.accent::before {
+  background: linear-gradient(90deg, var(--blue-500), var(--blue-700));
+}
+
+.metric-label {
+  font-size: 10.5px;
+  color: var(--text-muted);
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  font-weight: 600;
+}
+
+.metric-val {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+}
+
+.metric-sub {
+  font-size: 11px;
+  color: var(--text-faint);
+  margin-top: 4px;
+  font-weight: 500;
+}
+
+.metric-val.green { color: #059669; }
+.metric-val.red   { color: #dc2626; }
+.metric-val.amber { color: #d97706; }
+.metric-val.blue  { color: var(--blue-600); }
+
+/* ── Charts ── */
+.charts-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.chart-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 18px 20px;
+  box-shadow: var(--shadow-sm);
+}
+
+.chart-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  letter-spacing: -0.01em;
+}
+
+.chart-title-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--blue-500);
+  flex-shrink: 0;
+  box-shadow: 0 0 0 3px rgba(59,130,246,0.15);
+}
+
+.charts-row2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+/* ── Table ── */
+.table-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 18px 20px;
+  margin-bottom: 16px;
+  box-shadow: var(--shadow-sm);
+}
+
+.table-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.filter-row {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  background: transparent;
+  border: 1px solid var(--border-mid);
+  border-radius: 20px;
+  padding: 4px 13px;
+  font-size: 11px;
+  font-weight: 500;
+  font-family: var(--font-sans);
+  cursor: pointer;
+  color: var(--text-muted);
+  transition: all .15s;
+}
+
+.filter-btn:hover {
+  background: var(--blue-50);
+  border-color: var(--blue-300);
+  color: var(--blue-700);
+}
+
+.filter-btn.active {
+  background: var(--blue-600);
+  color: #fff;
+  border-color: var(--blue-600);
+  font-weight: 600;
+  box-shadow: 0 2px 6px rgba(37,99,235,0.25);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+  color: var(--text-muted);
+  font-weight: 600;
+  padding: 8px 10px;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border-mid);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  white-space: nowrap;
+}
+
+th:first-child { border-radius: 8px 0 0 8px; }
+th:last-child  { border-radius: 0 8px 8px 0; }
+
+td {
+  padding: 9px 10px;
+  border-bottom: 1px solid var(--border);
+  color: var(--text-primary);
+  font-family: var(--font-mono);
+  font-size: 11px;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+tbody tr {
+  transition: background .1s;
+}
+
+tbody tr:hover td {
+  background: var(--blue-50);
+}
+
+/* ── Pills ── */
+.pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 8px;
+  border-radius: 20px;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  font-family: var(--font-sans);
+  white-space: nowrap;
+}
+
+.pill-https { background: #dcfce7; color: #15803d; }
+.pill-http  { background: #fee2e2; color: #b91c1c; }
+.pill-dns   { background: var(--blue-50); color: var(--blue-700); border: 1px solid var(--blue-200); }
+.pill-ssh   { background: #ede9fe; color: #5b21b6; }
+.pill-tcp   { background: #f1f5f9; color: #475569; border: 1px solid #e2e8f0; }
+.pill-udp   { background: #faf5ff; color: #6d28d9; }
+.pill-icmp  { background: #fff7ed; color: #c2410c; }
+.pill-enc   { background: #dcfce7; color: #166534; }
+.pill-noenc { background: #fee2e2; color: #b91c1c; }
+
+.pill-alert-warn   { background: #fefce8; color: #92400e; border: 1px solid #fcd34d; }
+.pill-alert-danger { background: #fff1f2; color: #be123c; border: 1px solid #fca5a5; }
+.pill-alert-none   { background: var(--blue-50); color: var(--text-faint); }
+
+/* ── Alerts ── */
+.alert-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px 13px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  font-size: 12px;
+  font-family: var(--font-sans);
+  border-left: 3px solid transparent;
+  line-height: 1.45;
+}
+
+.alert-warn   { background: #fefce8; color: #854d0e; border-color: #f59e0b; }
+.alert-danger { background: #fff1f2; color: #be123c; border-color: #ef4444; }
+.alert-info   { background: var(--blue-50); color: var(--blue-800); border-color: var(--blue-400); }
+
+.alert-icon {
+  font-size: 13px;
+  flex-shrink: 0;
+  margin-top: 1px;
+  opacity: 0.85;
+}
 </style>
 
 <div class="dash">
+
+  <!-- Capture Settings Modal -->
+  <div class="modal-overlay" id="capture-modal">
+    <div class="modal-box">
+      <div class="modal-title">ตั้งค่าการดักจับ</div>
+
+      <div class="modal-section-label">เลือก Interface</div>
+      <div class="iface-grid">
+        <label class="iface-chip"><input type="checkbox" id="iface-6" value="6" checked> Wi-Fi (6)</label>
+        <label class="iface-chip"><input type="checkbox" id="iface-7" value="7" checked> Wi-Fi 5 (7)</label>
+        <label class="iface-chip"><input type="checkbox" id="iface-8" value="8" checked> Wi-Fi 2 (8)</label>
+        <label class="iface-chip"><input type="checkbox" id="iface-10" value="10" checked> Ethernet (10)</label>
+      </div>
+
+      <div class="modal-section-label">กรองโปรโตคอล <span style="font-weight:400;text-transform:none">(ไม่เลือก = ทั้งหมด)</span></div>
+      <div class="proto-grid" id="proto-filter-chips">
+        <span class="proto-chip" data-proto="tcp and not (port 80 or port 443 or port 22 or port 53)" data-display="TCP">TCP</span>
+        <span class="proto-chip" data-proto="udp and not port 53" data-display="UDP">UDP</span>
+        <span class="proto-chip" data-proto="icmp" data-display="ICMP">ICMP</span>
+        <span class="proto-chip" data-proto="port 80" data-display="HTTP">HTTP (80)</span>
+        <span class="proto-chip" data-proto="port 443" data-display="HTTPS">HTTPS (443)</span>
+        <span class="proto-chip" data-proto="port 53" data-display="DNS">DNS (53)</span>
+        <span class="proto-chip" data-proto="port 22" data-display="SSH">SSH (22)</span>
+      </div>
+
+      <div class="modal-section-label">กรองตาม IP <span style="font-weight:400;text-transform:none">(ไม่กรอก = ทุก IP)</span></div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:22px;">
+        <div>
+          <div style="font-size:11px;color:var(--text-muted);font-weight:500;margin-bottom:5px;">Source IP</div>
+          <input id="filter-src-ip" type="text" placeholder="เช่น 192.168.1.5"
+            style="width:100%;padding:7px 11px;border:1px solid var(--border-mid);border-radius:9px;font-size:12px;background:var(--surface);color:var(--text-primary);outline:none;font-family:var(--font-mono);transition:border-color .15s;"
+            onfocus="this.style.borderColor='var(--blue-400)'" onblur="this.style.borderColor='var(--border-mid)'">
+        </div>
+        <div>
+          <div style="font-size:11px;color:var(--text-muted);font-weight:500;margin-bottom:5px;">Dest IP</div>
+          <input id="filter-dst-ip" type="text" placeholder="เช่น 8.8.8.8"
+            style="width:100%;padding:7px 11px;border:1px solid var(--border-mid);border-radius:9px;font-size:12px;background:var(--surface);color:var(--text-primary);outline:none;font-family:var(--font-mono);transition:border-color .15s;"
+            onfocus="this.style.borderColor='var(--blue-400)'" onblur="this.style.borderColor='var(--border-mid)'">
+        </div>
+      </div>
+
+      <div class="modal-actions">
+        <button class="btn-cancel" onclick="closeModal()">ยกเลิก</button>
+        <button class="btn-start-go" onclick="startCaptureFromModal()">เริ่มดักจับ</button>
+      </div>
+    </div>
+  </div>
+
   <div class="topbar">
     <div class="topbar-left">
       <span class="logo">Packet Viz Dashboard</span>
@@ -318,7 +700,7 @@
     </div>
     <div class="topbar-right">
       <span class="badge-iface">eth0</span>
-      <span style="font-size:11px;color:var(--color-text-secondary)" id="clock"></span>
+      <span id="clock"></span>
       <button class="btn-stop" onclick="toggleCapture(this)">หยุดดักจับ</button>
     </div>
   </div>
@@ -371,13 +753,11 @@
       <div style="position:relative;height:160px;"><canvas id="barChart" role="img"
           aria-label="กราฟแท่งแสดงสัดส่วนแต่ละโปรโตคอล">สัดส่วนโปรโตคอล HTTPS TCP DNS SSH HTTP</canvas></div>
     </div>
-    <div class="chart-card">
-      <div class="chart-title">การแจ้งเตือนความปลอดภัย</div>
-      <div id="alerts-box">
-        <div class="alert-info"><span class="alert-icon">ℹ</span>
-          <div>กำลังรอข้อมูล...</div>
-        </div>
+    <div class="chart-card" style="overflow:hidden;display:flex;flex-direction:column;">
+      <div class="chart-title" style="margin-bottom:10px;flex-shrink:0;">การแจ้งเตือนความปลอดภัย
+        <span id="alert-count-badge" style="margin-left:auto;font-size:10px;font-weight:600;background:#fff1f1;color:#a32d2d;border:1px solid #e24b4a;padding:2px 8px;border-radius:12px;display:none;">0</span>
       </div>
+      <div id="alerts-box" style="overflow-y:auto;max-height:220px;flex:1;"></div>
     </div>
   </div>
 
@@ -390,6 +770,9 @@
         <button class="filter-btn" onclick="setFilter('HTTP',this)">HTTP</button>
         <button class="filter-btn" onclick="setFilter('DNS',this)">DNS</button>
         <button class="filter-btn" onclick="setFilter('SSH',this)">SSH</button>
+        <button class="filter-btn" onclick="setFilter('TCP',this)">TCP</button>
+        <button class="filter-btn" onclick="setFilter('UDP',this)">UDP</button>
+        <button class="filter-btn" onclick="setFilter('ICMP',this)">ICMP</button>
       </div>
     </div>
     <table>
@@ -404,6 +787,7 @@
           <th>ขนาด (bytes)</th>
           <th>TLS</th>
           <th>สถานะ</th>
+          <th>Alert</th>
         </tr>
       </thead>
       <tbody id="packet-table"></tbody>
@@ -418,7 +802,25 @@
   let totalPkts = 0, encPkts = 0, noencPkts = 0;
   let currentFilter = 'ALL';
   let packets = [];
+  let alertLog = [];
   const MAX_ROWS = 20;
+  const MAX_ALERTS = 10;
+
+  // ── Alert tracking ──
+  const alertedKeys = new Set();       // dedup: ไม่ให้ alert ซ้ำคู่เดิม
+  const ipPortHits  = {};              // { srcIP: { port: [timestamps] } }
+  const ipPktHits   = {};              // { srcIP: [timestamps] } สำหรับ DoS
+  const HIGH_TRAFFIC_PPS = 500;        // pps ที่ถือว่า traffic สูง
+  let lastHighTrafficAlert = 0;
+
+  // ล้าง tracker เก่าทุก 60 วินาที
+  setInterval(() => {
+    const cutoff = Date.now() - 60000;
+    for (const src in ipPktHits)  ipPktHits[src]  = ipPktHits[src].filter(t => t > cutoff);
+    for (const src in ipPortHits) {
+      for (const p in ipPortHits[src]) ipPortHits[src][p] = ipPortHits[src][p].filter(t => t > cutoff);
+    }
+  }, 60000);
 
   const lineLabels = Array.from({ length: 30 }, () => '');
   const lineData = Array.from({ length: 30 }, () => 0);
@@ -486,42 +888,62 @@
   updateClock();
 
   function protoClass(p) {
-    const m = { HTTPS: 'pill-https', HTTP: 'pill-http', DNS: 'pill-dns', SSH: 'pill-ssh', TCP: 'pill-tcp' };
+    const m = { HTTPS: 'pill-https', HTTP: 'pill-http', DNS: 'pill-dns', SSH: 'pill-ssh', TCP: 'pill-tcp', UDP: 'pill-udp', ICMP: 'pill-icmp' };
     return m[p] || 'pill-tcp';
   }
 
   function setAlertsBox(message, variant = 'info') {
-    const box = document.getElementById('alerts-box');
-    box.innerHTML = `
-      <div class="alert-row alert-${variant}">
-        <span class="alert-icon">${variant === 'danger' ? '✕' : variant === 'warn' ? '△' : 'ℹ'}</span>
-        <div>${message}</div>
-      </div>
-    `;
+    alertLog = [{ type: variant, message, time: new Date().toLocaleTimeString('th-TH'), pktId: null }, ...alertLog].slice(0, MAX_ALERTS);
+    renderAlerts();
   }
 
   function addAlert(alert) {
-    const box = document.getElementById('alerts-box');
-    const existing = box.querySelectorAll('.alert-row');
-    const wrapper = document.createElement('div');
-    wrapper.className = `alert-row alert-${alert.type}`;
-    wrapper.style.marginBottom = '6px';
-    wrapper.innerHTML = `
-      <span class="alert-icon">${alert.type === 'danger' ? '✕' : alert.type === 'warn' ? '△' : 'ℹ'}</span>
-      <div>${alert.message}</div>
-    `;
+    const entry = {
+      type: alert.type || 'info',
+      message: alert.message || '',
+      time: new Date().toLocaleTimeString('th-TH'),
+      pktId: alert.pktId || null
+    };
+    alertLog = [entry, ...alertLog].slice(0, MAX_ALERTS);
+    renderAlerts();
+    renderTable();
+  }
 
-    if (existing.length >= 3) {
-      existing[0].remove();
+  function renderAlerts() {
+    const box = document.getElementById('alerts-box');
+    const badge = document.getElementById('alert-count-badge');
+    const dangerous = alertLog.filter(a => a.type === 'danger' || a.type === 'warn').length;
+    if (dangerous > 0) {
+      badge.textContent = dangerous;
+      badge.style.display = 'inline-block';
+    } else {
+      badge.style.display = 'none';
     }
-    box.appendChild(wrapper);
+    if (alertLog.length === 0) {
+      box.innerHTML = `<div class="alert-row alert-info"><span class="alert-icon">ℹ</span><div>ยังไม่มีการแจ้งเตือน</div></div>`;
+      return;
+    }
+    box.innerHTML = alertLog.map((a, i) => `
+      <div class="alert-row alert-${a.type}" style="margin-bottom:${i < alertLog.length-1 ? '5' : '0'}px;">
+        <span class="alert-icon">${a.type === 'danger' ? '✕' : a.type === 'warn' ? '⚠' : 'ℹ'}</span>
+        <div style="flex:1;min-width:0;">
+          <div style="word-break:break-word;">${a.message}</div>
+          <div style="font-size:10px;opacity:0.65;margin-top:2px;">${a.time}</div>
+        </div>
+      </div>
+    `).join('');
   }
 
   function renderTable() {
     const tbody = document.getElementById('packet-table');
     const filtered = currentFilter === 'ALL' ? packets : packets.filter(p => p.protocol === currentFilter);
-    tbody.innerHTML = filtered.slice(0, MAX_ROWS).map(p => `
-      <tr>
+    tbody.innerHTML = filtered.slice(0, MAX_ROWS).map(p => {
+      const pktAlert = alertLog.find(a => a.pktId === p.id);
+      const alertCell = pktAlert
+        ? `<span class="pill pill-alert-${pktAlert.type}">${pktAlert.message.slice(0,22)}</span>`
+        : `<span class="pill pill-alert-none">—</span>`;
+      return `
+      <tr${pktAlert ? ` style="background:${pktAlert.type==='danger'?'#fff8f8':'#fffcf0'}"` : ''}>
         <td>${p.id}</td>
         <td>${p.time}</td>
         <td>${p.srcIP}</td>
@@ -531,8 +953,9 @@
         <td>${p.size}</td>
         <td>${p.tlsVersion || '-'}</td>
         <td><span class="pill ${p.encrypted ? 'pill-enc' : 'pill-noenc'}">${p.encrypted ? 'Encrypted' : 'Unencrypted'}</span></td>
-      </tr>
-    `).join('');
+        <td>${alertCell}</td>
+      </tr>`;
+    }).join('');
   }
 
   function updateMetrics(stats) {
@@ -540,12 +963,20 @@
     encPkts = stats.encrypted || 0;
     noencPkts = stats.unencrypted || 0;
 
-    document.getElementById('pps').textContent = stats.pps || 0;
+    const pps = stats.pps || 0;
+    document.getElementById('pps').textContent = pps;
     document.getElementById('total').textContent = totalPkts.toLocaleString();
     document.getElementById('enc-pct').textContent = (stats.encryptedPct || 0) + '%';
     document.getElementById('noenc-pct').textContent = (100 - (stats.encryptedPct || 0)) + '%';
     document.getElementById('enc-count').textContent = encPkts.toLocaleString() + ' แพ็กเก็ต';
     document.getElementById('noenc-count').textContent = noencPkts.toLocaleString() + ' แพ็กเก็ต';
+
+    // ── 5. แจ้งเตือนปริมาณ traffic สูง (pps เกิน threshold) ── [ปานกลาง]
+    const now = Date.now();
+    if (pps > HIGH_TRAFFIC_PPS && now - lastHighTrafficAlert > 15000) {
+      lastHighTrafficAlert = now;
+      addAlert({ type: 'warn', message: `Traffic สูง: ${pps} pkts/sec (>${HIGH_TRAFFIC_PPS})`, pktId: null });
+    }
   }
 
   function updateCharts(stats) {
@@ -564,15 +995,112 @@
   function handlePacket(pkt) {
     if (!pkt) return;
     packets = [pkt, ...packets].slice(0, 200);
+
+    const dstPort = parseInt(pkt.dstPort) || 0;
+    const srcPort = parseInt(pkt.srcPort) || 0;
+    const port    = dstPort || srcPort;
+
+    // ── 1. แจ้งเตือนการสื่อสารที่ไม่เข้ารหัส (HTTP / Telnet / FTP) ── [สูง]
+    if (pkt.protocol === 'HTTP' || dstPort === 80 || srcPort === 80) {
+      const key = `http:${pkt.srcIP}→${pkt.dstIP}`;
+      if (!alertedKeys.has(key)) {
+        alertedKeys.add(key);
+        addAlert({ type: 'danger', message: `ไม่เข้ารหัส HTTP → ${pkt.dstIP}:${dstPort || 80}`, pktId: pkt.id });
+      }
+    } else if (dstPort === 23 || srcPort === 23) {
+      const key = `telnet:${pkt.srcIP}→${pkt.dstIP}`;
+      if (!alertedKeys.has(key)) {
+        alertedKeys.add(key);
+        addAlert({ type: 'danger', message: `ไม่เข้ารหัส Telnet → ${pkt.dstIP}`, pktId: pkt.id });
+      }
+    } else if (dstPort === 21 || dstPort === 20 || srcPort === 21 || srcPort === 20) {
+      const key = `ftp:${pkt.srcIP}→${pkt.dstIP}`;
+      if (!alertedKeys.has(key)) {
+        alertedKeys.add(key);
+        addAlert({ type: 'danger', message: `ไม่เข้ารหัส FTP → ${pkt.dstIP}`, pktId: pkt.id });
+      }
+    }
+
+    // ── 2. แจ้งเตือน Protocol ที่มีช่องโหว่ (SSL 3.0 / TLS 1.0) ── [สูง]
+    if (pkt.tlsVersion) {
+      const v = pkt.tlsVersion.trim();
+      const isWeak = v.toLowerCase().includes('ssl') || v === 'TLS 1.0' || v === 'TLS 1.1';
+      if (isWeak) {
+        const key = `weaktls:${pkt.srcIP}→${pkt.dstIP}:${v}`;
+        if (!alertedKeys.has(key)) {
+          alertedKeys.add(key);
+          addAlert({ type: 'danger', message: `Protocol ช่องโหว่: ${v} → ${pkt.dstIP}`, pktId: pkt.id });
+        }
+      }
+    }
+
+    // ── 3. แจ้งเตือนการโจมตี ── [ปานกลาง] ─────────────────────────────
+    checkAttackPatterns(pkt, port);
+
     renderTable();
+  }
+
+  function checkAttackPatterns(pkt, port) {
+    const now = Date.now();
+    const src = pkt.srcIP;
+
+    if (!ipPktHits[src])  ipPktHits[src]  = [];
+    if (!ipPortHits[src]) ipPortHits[src] = {};
+
+    // ── DoS Attempt: >300 packets จาก IP เดียวใน 5 วิ ──
+    ipPktHits[src].push(now);
+    const pkt5s = ipPktHits[src].filter(t => now - t < 5000);
+    ipPktHits[src] = pkt5s;
+    if (pkt5s.length > 300) {
+      const key = `dos:${src}`;
+      if (!alertedKeys.has(key)) {
+        alertedKeys.add(key);
+        addAlert({ type: 'warn', message: `DoS Attempt: ${src} → ${pkt5s.length} pkts/5s`, pktId: pkt.id });
+        setTimeout(() => alertedKeys.delete(key), 30000);
+      }
+    }
+
+    // ── Port Scan: >15 unique ports จาก IP เดียวใน 10 วิ ──
+    if (port > 0) {
+      if (!ipPortHits[src][port]) ipPortHits[src][port] = [];
+      ipPortHits[src][port].push(now);
+      ipPortHits[src][port] = ipPortHits[src][port].filter(t => now - t < 10000);
+      const activePorts = Object.keys(ipPortHits[src]).filter(
+        p => !p.startsWith('bf_') && ipPortHits[src][p].some(t => now - t < 10000)
+      );
+      if (activePorts.length > 15) {
+        const key = `portscan:${src}`;
+        if (!alertedKeys.has(key)) {
+          alertedKeys.add(key);
+          addAlert({ type: 'warn', message: `Port Scan: ${src} → ${activePorts.length} ports/10s`, pktId: pkt.id });
+          setTimeout(() => alertedKeys.delete(key), 30000);
+        }
+      }
+    }
+
+    // ── Brute Force: >20 packets → SSH(22) / FTP(21) จาก IP เดียวใน 10 วิ ──
+    if (port === 22 || port === 21) {
+      const bfKey = `bf_${port}`;
+      if (!ipPortHits[src][bfKey]) ipPortHits[src][bfKey] = [];
+      ipPortHits[src][bfKey].push(now);
+      ipPortHits[src][bfKey] = ipPortHits[src][bfKey].filter(t => now - t < 10000);
+      if (ipPortHits[src][bfKey].length > 20) {
+        const key = `bruteforce:${src}:${port}`;
+        if (!alertedKeys.has(key)) {
+          alertedKeys.add(key);
+          const svc = port === 22 ? 'SSH' : 'FTP';
+          addAlert({ type: 'warn', message: `Brute Force: ${src} → ${svc} (${ipPortHits[src][bfKey].length} pkts/10s)`, pktId: pkt.id });
+          setTimeout(() => alertedKeys.delete(key), 30000);
+        }
+      }
+    }
   }
 
   const socket = io();
 
   socket.on('connect', () => {
     console.log('Socket connected:', socket.id);
-    socket.emit('capture:start', { iface: '5', filter: 'ip' });
-    setAlertsBox('เชื่อมต่อกับเซิร์ฟเวอร์สำเร็จ รอ packet จาก capture.js...', 'info');
+    setAlertsBox('เชื่อมต่อกับเซิร์ฟเวอร์สำเร็จ กดเริ่มดักจับเพื่อเริ่ม...', 'info');
   });
 
   socket.on('connected', (data) => {
@@ -616,8 +1144,56 @@
     if (running) {
       socket.emit('capture:stop');
     } else {
-      socket.emit('capture:start', { iface: '5', filter: 'ip' });
+      openModal();
     }
+  }
+
+  function openModal() {
+    document.getElementById('capture-modal').classList.add('open');
+  }
+
+  function closeModal() {
+    document.getElementById('capture-modal').classList.remove('open');
+  }
+
+  // Proto chip toggle
+  document.querySelectorAll('.proto-chip').forEach(chip => {
+    chip.addEventListener('click', () => chip.classList.toggle('selected'));
+  });
+
+  function startCaptureFromModal() {
+    const ifaces = [...document.querySelectorAll('.iface-grid input:checked')]
+      .map(el => el.value).join(',');
+    if (!ifaces) { alert('กรุณาเลือก Interface อย่างน้อย 1 รายการ'); return; }
+
+    const selectedChips = [...document.querySelectorAll('.proto-chip.selected')];
+    const protos = selectedChips.map(el => el.dataset.proto);
+    const displayProtos = selectedChips.map(el => el.dataset.display).filter(Boolean);
+
+    const srcIP = document.getElementById('filter-src-ip').value.trim();
+    const dstIP = document.getElementById('filter-dst-ip').value.trim();
+
+    const parts = [];
+    if (protos.length > 0) parts.push('(' + protos.join(' or ') + ')');
+    if (srcIP) parts.push('src host ' + srcIP);
+    if (dstIP) parts.push('dst host ' + dstIP);
+    const filter = parts.join(' and ');
+
+    // ตั้ง table display filter ตามโปรโตคอลที่เลือก
+    if (displayProtos.length === 1) {
+      currentFilter = displayProtos[0];
+      document.querySelectorAll('.filter-btn').forEach(b => {
+        b.classList.toggle('active', b.textContent === displayProtos[0]);
+      });
+    } else {
+      currentFilter = 'ALL';
+      document.querySelectorAll('.filter-btn').forEach(b => {
+        b.classList.toggle('active', b.textContent === 'ทั้งหมด');
+      });
+    }
+
+    closeModal();
+    socket.emit('capture:start', { iface: ifaces, filter });
   }
 
   function setFilter(f, btn) {

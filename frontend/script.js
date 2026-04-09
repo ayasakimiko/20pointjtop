@@ -100,7 +100,7 @@ socket.on('error', (e) => addAlert('danger', e.message));
 // ── UI Controls ───────────────────────────────────────────────────────────────
 function toggleCapture() {
   if (!running) {
-    socket.emit('capture:start', { iface: 'eth0', filter: '' });
+    socket.emit('capture:start', { iface: '6,7,8,10', filter: '' });
   } else {
     socket.emit('capture:stop');
   }
