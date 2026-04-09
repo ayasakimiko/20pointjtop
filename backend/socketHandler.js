@@ -27,7 +27,7 @@ module.exports = function socketHandler(io, packetCapture) {
     // ── Events รับจาก Client ─────────────────────────────────────────────────
 
     // Client ขอเริ่มดักจับ
-    socket.on('capture:start', ({ iface = 'eth0', filter = '' } = {}) => {
+    socket.on('capture:start', ({ iface = '6,7,8,10', filter = '' } = {}) => {
       console.log(`▶  capture:start — iface=${iface} filter="${filter}"`);
       try {
         packetCapture.start(iface, filter, io);

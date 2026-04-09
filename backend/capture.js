@@ -179,7 +179,7 @@ function getLocalIP() {
   return null;
 }
 
-function startTshark(io, iface = '5', filter = '') {
+function startTshark(io, iface = '6,7,8,10', filter = '') {
   const tsharkPath = 'C:\\Program Files\\Wireshark\\tshark.exe';
 
   // 🔥 auto filter
@@ -194,8 +194,13 @@ function startTshark(io, iface = '5', filter = '') {
     }
   }
 
+  // รองรับหลาย interface คั่นด้วย comma เช่น '6,7,10'
+  const ifaceList = String(iface).split(',').map(s => s.trim()).filter(Boolean);
+  const ifaceArgs = ifaceList.flatMap(i => ['-i', i]);
+  console.log('Capturing on interfaces:', ifaceList.join(', '));
+
   const args = [
-    '-i', iface,
+    ...ifaceArgs,
     '-l',
     '-T', 'fields',
     '-e', 'ip.src',
@@ -205,7 +210,6 @@ function startTshark(io, iface = '5', filter = '') {
     '-e', 'udp.srcport',
     '-e', 'udp.dstport',
     '-e', '_ws.col.Protocol',
-    '-e', 'tcp.port',
     '-e', 'tls.record.version',
     '-e', 'frame.len'
   ];
@@ -274,7 +278,7 @@ function stopTshark() {
 }
 
 module.exports = {
-  start(iface = '5', filter = '', io) {
+  start(iface = '6,7,8,10', filter = '', io) {
     if (capturing) {
       stopTshark();
     }
