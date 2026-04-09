@@ -44998,5 +44998,5005 @@
     "protocol": "HTTPS",
     "encrypted": true,
     "analyzedAt": "2026-04-09T15:26:40.409Z"
+  },
+  {
+    "id": "0mw0l",
+    "time": "10:26:40 PM",
+    "srcIP": "192.168.1.59",
+    "dstIP": "142.250.148.238",
+    "size": 1004,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:40.436Z"
+  },
+  {
+    "id": "caplop",
+    "time": "10:26:40 PM",
+    "srcIP": "192.168.1.220",
+    "dstIP": "142.250.254.171",
+    "size": 259,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:40.471Z"
+  },
+  {
+    "id": "ktlx5",
+    "time": "10:26:40 PM",
+    "srcIP": "192.168.1.52",
+    "dstIP": "142.250.126.1",
+    "size": 1497,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:40.501Z"
+  },
+  {
+    "id": "bjda1",
+    "time": "10:26:40 PM",
+    "srcIP": "192.168.1.188",
+    "dstIP": "142.250.217.186",
+    "size": 945,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:40.534Z"
+  },
+  {
+    "id": "xkbaxg",
+    "time": "10:26:40 PM",
+    "srcIP": "192.168.1.121",
+    "dstIP": "142.250.125.138",
+    "size": 1413,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:40.564Z"
+  },
+  {
+    "id": "d3766j",
+    "time": "10:26:40 PM",
+    "srcIP": "192.168.1.196",
+    "dstIP": "142.250.126.69",
+    "size": 289,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:40.595Z"
+  },
+  {
+    "id": "lw0y51",
+    "time": "10:26:40 PM",
+    "srcIP": "192.168.1.204",
+    "dstIP": "142.250.75.102",
+    "size": 1484,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:40.630Z"
+  },
+  {
+    "id": "i3psx",
+    "time": "10:26:40 PM",
+    "srcIP": "192.168.1.202",
+    "dstIP": "142.250.83.99",
+    "size": 609,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:40.657Z"
+  },
+  {
+    "id": "kf5ror",
+    "time": "10:26:40 PM",
+    "srcIP": "192.168.1.31",
+    "dstIP": "142.250.192.84",
+    "size": 1316,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:40.688Z"
+  },
+  {
+    "id": "kigcop",
+    "time": "10:26:40 PM",
+    "srcIP": "192.168.1.245",
+    "dstIP": "142.250.213.207",
+    "size": 172,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:40.719Z"
+  },
+  {
+    "id": "028ina",
+    "time": "10:26:40 PM",
+    "srcIP": "192.168.1.188",
+    "dstIP": "142.250.73.152",
+    "size": 477,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:40.750Z"
+  },
+  {
+    "id": "tye1oa",
+    "time": "10:26:40 PM",
+    "srcIP": "192.168.1.193",
+    "dstIP": "142.250.218.169",
+    "size": 1055,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:40.780Z"
+  },
+  {
+    "id": "ncoena",
+    "time": "10:26:40 PM",
+    "srcIP": "192.168.1.229",
+    "dstIP": "142.250.86.252",
+    "size": 187,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:40.811Z"
+  },
+  {
+    "id": "73gjg3",
+    "time": "10:26:40 PM",
+    "srcIP": "192.168.1.3",
+    "dstIP": "142.250.180.119",
+    "size": 968,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:40.842Z"
+  },
+  {
+    "id": "rtexnd",
+    "time": "10:26:40 PM",
+    "srcIP": "192.168.1.122",
+    "dstIP": "142.250.246.104",
+    "size": 203,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:40.873Z"
+  },
+  {
+    "id": "gv5k6q",
+    "time": "10:26:40 PM",
+    "srcIP": "192.168.1.235",
+    "dstIP": "142.250.142.210",
+    "size": 981,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:40.904Z"
+  },
+  {
+    "id": "4958td",
+    "time": "10:26:40 PM",
+    "srcIP": "192.168.1.173",
+    "dstIP": "142.250.142.153",
+    "size": 1281,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:40.935Z"
+  },
+  {
+    "id": "n2frpo",
+    "time": "10:26:40 PM",
+    "srcIP": "192.168.1.174",
+    "dstIP": "142.250.30.205",
+    "size": 1266,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:40.966Z"
+  },
+  {
+    "id": "8pw7nl",
+    "time": "10:26:40 PM",
+    "srcIP": "192.168.1.206",
+    "dstIP": "142.250.72.229",
+    "size": 1157,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:40.996Z"
+  },
+  {
+    "id": "v2zoc",
+    "time": "10:26:41 PM",
+    "srcIP": "192.168.1.169",
+    "dstIP": "142.250.186.134",
+    "size": 370,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:41.027Z"
+  },
+  {
+    "id": "0a99ja",
+    "time": "10:26:41 PM",
+    "srcIP": "192.168.1.127",
+    "dstIP": "142.250.197.180",
+    "size": 376,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:41.058Z"
+  },
+  {
+    "id": "gdgmf",
+    "time": "10:26:41 PM",
+    "srcIP": "192.168.1.214",
+    "dstIP": "142.250.58.22",
+    "size": 650,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:41.089Z"
+  },
+  {
+    "id": "k67mt8",
+    "time": "10:26:41 PM",
+    "srcIP": "192.168.1.124",
+    "dstIP": "142.250.139.11",
+    "size": 1249,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:41.120Z"
+  },
+  {
+    "id": "ijg1v",
+    "time": "10:26:41 PM",
+    "srcIP": "192.168.1.122",
+    "dstIP": "142.250.151.129",
+    "size": 117,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:41.151Z"
+  },
+  {
+    "id": "zbnpw3",
+    "time": "10:26:41 PM",
+    "srcIP": "192.168.1.168",
+    "dstIP": "142.250.123.49",
+    "size": 276,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:41.183Z"
+  },
+  {
+    "id": "xv85fi",
+    "time": "10:26:41 PM",
+    "srcIP": "192.168.1.165",
+    "dstIP": "142.250.180.194",
+    "size": 398,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:41.213Z"
+  },
+  {
+    "id": "b3zcfe",
+    "time": "10:26:41 PM",
+    "srcIP": "192.168.1.180",
+    "dstIP": "142.250.149.100",
+    "size": 926,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:41.244Z"
+  },
+  {
+    "id": "pt58a6",
+    "time": "10:26:41 PM",
+    "srcIP": "192.168.1.239",
+    "dstIP": "142.250.48.41",
+    "size": 747,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:41.275Z"
+  },
+  {
+    "id": "nysm5",
+    "time": "10:26:41 PM",
+    "srcIP": "192.168.1.230",
+    "dstIP": "142.250.81.184",
+    "size": 1466,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:41.306Z"
+  },
+  {
+    "id": "ky9myn",
+    "time": "10:26:41 PM",
+    "srcIP": "192.168.1.59",
+    "dstIP": "142.250.15.38",
+    "size": 162,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:41.337Z"
+  },
+  {
+    "id": "gad7ge",
+    "time": "10:26:41 PM",
+    "srcIP": "192.168.1.247",
+    "dstIP": "142.250.107.217",
+    "size": 669,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:41.369Z"
+  },
+  {
+    "id": "ibosb8",
+    "time": "10:26:41 PM",
+    "srcIP": "192.168.1.232",
+    "dstIP": "142.250.71.216",
+    "size": 1327,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:41.401Z"
+  },
+  {
+    "id": "vm64lf",
+    "time": "10:26:41 PM",
+    "srcIP": "192.168.1.147",
+    "dstIP": "142.250.192.210",
+    "size": 536,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:41.430Z"
+  },
+  {
+    "id": "yk01kv",
+    "time": "10:26:41 PM",
+    "srcIP": "192.168.1.172",
+    "dstIP": "142.250.146.196",
+    "size": 994,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:41.461Z"
+  },
+  {
+    "id": "22zu7p",
+    "time": "10:26:41 PM",
+    "srcIP": "192.168.1.29",
+    "dstIP": "142.250.246.204",
+    "size": 1207,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:41.493Z"
+  },
+  {
+    "id": "qn4ld",
+    "time": "10:26:41 PM",
+    "srcIP": "192.168.1.181",
+    "dstIP": "142.250.155.190",
+    "size": 287,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:41.524Z"
+  },
+  {
+    "id": "zmcv12",
+    "time": "10:26:41 PM",
+    "srcIP": "192.168.1.201",
+    "dstIP": "142.250.150.219",
+    "size": 621,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:41.555Z"
+  },
+  {
+    "id": "nye3zs",
+    "time": "10:26:41 PM",
+    "srcIP": "192.168.1.106",
+    "dstIP": "142.250.16.235",
+    "size": 1429,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:41.586Z"
+  },
+  {
+    "id": "dn9yt",
+    "time": "10:26:41 PM",
+    "srcIP": "192.168.1.207",
+    "dstIP": "142.250.196.227",
+    "size": 168,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:41.616Z"
+  },
+  {
+    "id": "gp952h",
+    "time": "10:26:41 PM",
+    "srcIP": "192.168.1.70",
+    "dstIP": "142.250.28.185",
+    "size": 566,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:41.648Z"
+  },
+  {
+    "id": "lt9n5b",
+    "time": "10:26:41 PM",
+    "srcIP": "192.168.1.0",
+    "dstIP": "142.250.222.122",
+    "size": 105,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:41.679Z"
+  },
+  {
+    "id": "znc98c",
+    "time": "10:26:41 PM",
+    "srcIP": "192.168.1.84",
+    "dstIP": "142.250.103.69",
+    "size": 95,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:41.711Z"
+  },
+  {
+    "id": "4hn529",
+    "time": "10:26:41 PM",
+    "srcIP": "192.168.1.126",
+    "dstIP": "142.250.56.57",
+    "size": 1058,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:41.741Z"
+  },
+  {
+    "id": "j45sa",
+    "time": "10:26:41 PM",
+    "srcIP": "192.168.1.189",
+    "dstIP": "142.250.65.206",
+    "size": 851,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:41.773Z"
+  },
+  {
+    "id": "x4wvff",
+    "time": "10:26:41 PM",
+    "srcIP": "192.168.1.231",
+    "dstIP": "142.250.111.70",
+    "size": 500,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:41.803Z"
+  },
+  {
+    "id": "95x2tm",
+    "time": "10:26:41 PM",
+    "srcIP": "192.168.1.6",
+    "dstIP": "142.250.119.41",
+    "size": 361,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:41.834Z"
+  },
+  {
+    "id": "isy9a",
+    "time": "10:26:41 PM",
+    "srcIP": "192.168.1.158",
+    "dstIP": "142.250.201.248",
+    "size": 934,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:41.865Z"
+  },
+  {
+    "id": "5q0jfe",
+    "time": "10:26:41 PM",
+    "srcIP": "192.168.1.198",
+    "dstIP": "142.250.49.53",
+    "size": 552,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:41.896Z"
+  },
+  {
+    "id": "bigyyd",
+    "time": "10:26:41 PM",
+    "srcIP": "192.168.1.117",
+    "dstIP": "142.250.188.160",
+    "size": 897,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:41.927Z"
+  },
+  {
+    "id": "t3oz2h",
+    "time": "10:26:41 PM",
+    "srcIP": "192.168.1.83",
+    "dstIP": "142.250.81.155",
+    "size": 568,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:41.958Z"
+  },
+  {
+    "id": "viciih",
+    "time": "10:26:41 PM",
+    "srcIP": "192.168.1.105",
+    "dstIP": "142.250.83.186",
+    "size": 761,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:41.989Z"
+  },
+  {
+    "id": "gxcguk",
+    "time": "10:26:42 PM",
+    "srcIP": "192.168.1.94",
+    "dstIP": "142.250.128.253",
+    "size": 548,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:42.020Z"
+  },
+  {
+    "id": "zh2ozv",
+    "time": "10:26:42 PM",
+    "srcIP": "192.168.1.125",
+    "dstIP": "142.250.48.165",
+    "size": 1449,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:42.052Z"
+  },
+  {
+    "id": "emlpbm",
+    "time": "10:26:42 PM",
+    "srcIP": "192.168.1.60",
+    "dstIP": "142.250.24.174",
+    "size": 523,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:42.083Z"
+  },
+  {
+    "id": "3bceo",
+    "time": "10:26:42 PM",
+    "srcIP": "192.168.1.164",
+    "dstIP": "142.250.116.200",
+    "size": 1141,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:42.113Z"
+  },
+  {
+    "id": "ae6twi",
+    "time": "10:26:42 PM",
+    "srcIP": "192.168.1.119",
+    "dstIP": "142.250.231.179",
+    "size": 1187,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:42.144Z"
+  },
+  {
+    "id": "598rrs",
+    "time": "10:26:42 PM",
+    "srcIP": "192.168.1.155",
+    "dstIP": "142.250.46.231",
+    "size": 467,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:42.176Z"
+  },
+  {
+    "id": "rw27is",
+    "time": "10:26:42 PM",
+    "srcIP": "192.168.1.239",
+    "dstIP": "142.250.36.167",
+    "size": 514,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:42.206Z"
+  },
+  {
+    "id": "uhhh5s",
+    "time": "10:26:42 PM",
+    "srcIP": "192.168.1.102",
+    "dstIP": "142.250.44.210",
+    "size": 571,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:42.238Z"
+  },
+  {
+    "id": "ua7kxs",
+    "time": "10:26:42 PM",
+    "srcIP": "192.168.1.87",
+    "dstIP": "142.250.139.92",
+    "size": 705,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:42.269Z"
+  },
+  {
+    "id": "memtki",
+    "time": "10:26:42 PM",
+    "srcIP": "192.168.1.86",
+    "dstIP": "142.250.221.151",
+    "size": 310,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:42.300Z"
+  },
+  {
+    "id": "2g5o7o",
+    "time": "10:26:42 PM",
+    "srcIP": "192.168.1.94",
+    "dstIP": "142.250.179.143",
+    "size": 153,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:42.331Z"
+  },
+  {
+    "id": "w391g",
+    "time": "10:26:42 PM",
+    "srcIP": "192.168.1.208",
+    "dstIP": "142.250.252.64",
+    "size": 1068,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:42.362Z"
+  },
+  {
+    "id": "xandpn",
+    "time": "10:26:42 PM",
+    "srcIP": "192.168.1.56",
+    "dstIP": "142.250.194.243",
+    "size": 1002,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:42.393Z"
+  },
+  {
+    "id": "q6lko",
+    "time": "10:26:42 PM",
+    "srcIP": "192.168.1.119",
+    "dstIP": "142.250.36.48",
+    "size": 1013,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:42.423Z"
+  },
+  {
+    "id": "vw4cm9",
+    "time": "10:26:42 PM",
+    "srcIP": "192.168.1.67",
+    "dstIP": "142.250.74.13",
+    "size": 205,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:42.454Z"
+  },
+  {
+    "id": "0v4swn",
+    "time": "10:26:42 PM",
+    "srcIP": "192.168.1.34",
+    "dstIP": "142.250.204.97",
+    "size": 69,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:42.486Z"
+  },
+  {
+    "id": "efypaf",
+    "time": "10:26:42 PM",
+    "srcIP": "192.168.1.200",
+    "dstIP": "142.250.249.145",
+    "size": 1439,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:42.516Z"
+  },
+  {
+    "id": "ideo6p",
+    "time": "10:26:42 PM",
+    "srcIP": "192.168.1.13",
+    "dstIP": "142.250.246.106",
+    "size": 1513,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:42.547Z"
+  },
+  {
+    "id": "fyobo7",
+    "time": "10:26:42 PM",
+    "srcIP": "192.168.1.215",
+    "dstIP": "142.250.30.178",
+    "size": 520,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:42.578Z"
+  },
+  {
+    "id": "f4dknj",
+    "time": "10:26:42 PM",
+    "srcIP": "192.168.1.234",
+    "dstIP": "142.250.83.141",
+    "size": 396,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:42.608Z"
+  },
+  {
+    "id": "izetqa",
+    "time": "10:26:42 PM",
+    "srcIP": "192.168.1.205",
+    "dstIP": "142.250.22.199",
+    "size": 609,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:42.639Z"
+  },
+  {
+    "id": "65jgz",
+    "time": "10:26:42 PM",
+    "srcIP": "192.168.1.223",
+    "dstIP": "142.250.231.29",
+    "size": 624,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:42.670Z"
+  },
+  {
+    "id": "rz34zo",
+    "time": "10:26:42 PM",
+    "srcIP": "192.168.1.181",
+    "dstIP": "142.250.32.96",
+    "size": 531,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:42.700Z"
+  },
+  {
+    "id": "53kosvr",
+    "time": "10:26:42 PM",
+    "srcIP": "192.168.1.195",
+    "dstIP": "142.250.37.184",
+    "size": 1388,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:42.731Z"
+  },
+  {
+    "id": "0nx8zj",
+    "time": "10:26:42 PM",
+    "srcIP": "192.168.1.249",
+    "dstIP": "142.250.244.226",
+    "size": 1423,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:42.763Z"
+  },
+  {
+    "id": "kezp2",
+    "time": "10:26:42 PM",
+    "srcIP": "192.168.1.163",
+    "dstIP": "142.250.88.13",
+    "size": 105,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:42.793Z"
+  },
+  {
+    "id": "85dflb",
+    "time": "10:26:42 PM",
+    "srcIP": "192.168.1.237",
+    "dstIP": "142.250.163.182",
+    "size": 1141,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:42.824Z"
+  },
+  {
+    "id": "35v7p",
+    "time": "10:26:42 PM",
+    "srcIP": "192.168.1.216",
+    "dstIP": "142.250.105.244",
+    "size": 487,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:42.854Z"
+  },
+  {
+    "id": "hs6sov",
+    "time": "10:26:42 PM",
+    "srcIP": "192.168.1.205",
+    "dstIP": "142.250.160.144",
+    "size": 419,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:42.885Z"
+  },
+  {
+    "id": "oqx7wfw",
+    "time": "10:26:42 PM",
+    "srcIP": "192.168.1.2",
+    "dstIP": "142.250.188.51",
+    "size": 379,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:42.916Z"
+  },
+  {
+    "id": "mo725p",
+    "time": "10:26:42 PM",
+    "srcIP": "192.168.1.89",
+    "dstIP": "142.250.40.55",
+    "size": 437,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:42.948Z"
+  },
+  {
+    "id": "o7ur9",
+    "time": "10:26:42 PM",
+    "srcIP": "192.168.1.76",
+    "dstIP": "142.250.250.124",
+    "size": 1043,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:42.978Z"
+  },
+  {
+    "id": "3osevc",
+    "time": "10:26:43 PM",
+    "srcIP": "192.168.1.169",
+    "dstIP": "142.250.48.132",
+    "size": 419,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:43.009Z"
+  },
+  {
+    "id": "6kuv7m",
+    "time": "10:26:43 PM",
+    "srcIP": "192.168.1.248",
+    "dstIP": "142.250.153.132",
+    "size": 1320,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:43.040Z"
+  },
+  {
+    "id": "ahcxbd",
+    "time": "10:26:43 PM",
+    "srcIP": "192.168.1.47",
+    "dstIP": "142.250.179.35",
+    "size": 501,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:43.071Z"
+  },
+  {
+    "id": "hxgwug",
+    "time": "10:26:43 PM",
+    "srcIP": "192.168.1.226",
+    "dstIP": "142.250.77.143",
+    "size": 1017,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:43.103Z"
+  },
+  {
+    "id": "q9v4t",
+    "time": "10:26:43 PM",
+    "srcIP": "192.168.1.200",
+    "dstIP": "142.250.35.9",
+    "size": 206,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:43.134Z"
+  },
+  {
+    "id": "z76t86",
+    "time": "10:26:43 PM",
+    "srcIP": "192.168.1.183",
+    "dstIP": "142.250.235.25",
+    "size": 1417,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:43.164Z"
+  },
+  {
+    "id": "wdeggk",
+    "time": "10:26:43 PM",
+    "srcIP": "192.168.1.226",
+    "dstIP": "142.250.80.152",
+    "size": 828,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:43.195Z"
+  },
+  {
+    "id": "utq5hs",
+    "time": "10:26:43 PM",
+    "srcIP": "192.168.1.200",
+    "dstIP": "142.250.69.30",
+    "size": 1439,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:43.227Z"
+  },
+  {
+    "id": "l1kj8h",
+    "time": "10:26:43 PM",
+    "srcIP": "192.168.1.139",
+    "dstIP": "142.250.63.3",
+    "size": 301,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:43.259Z"
+  },
+  {
+    "id": "0sszsg",
+    "time": "10:26:43 PM",
+    "srcIP": "192.168.1.171",
+    "dstIP": "142.250.4.104",
+    "size": 380,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:43.290Z"
+  },
+  {
+    "id": "djjazg",
+    "time": "10:26:43 PM",
+    "srcIP": "192.168.1.186",
+    "dstIP": "142.250.251.232",
+    "size": 591,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:43.322Z"
+  },
+  {
+    "id": "5660io",
+    "time": "10:26:43 PM",
+    "srcIP": "192.168.1.17",
+    "dstIP": "142.250.100.80",
+    "size": 1145,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:43.353Z"
+  },
+  {
+    "id": "9vznxb",
+    "time": "10:26:43 PM",
+    "srcIP": "192.168.1.33",
+    "dstIP": "142.250.219.184",
+    "size": 319,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:43.383Z"
+  },
+  {
+    "id": "s0he5f",
+    "time": "10:26:43 PM",
+    "srcIP": "192.168.1.159",
+    "dstIP": "142.250.34.210",
+    "size": 266,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:43.414Z"
+  },
+  {
+    "id": "d7vxqx",
+    "time": "10:26:43 PM",
+    "srcIP": "192.168.1.58",
+    "dstIP": "142.250.134.100",
+    "size": 659,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:43.445Z"
+  },
+  {
+    "id": "ur32m89",
+    "time": "10:26:43 PM",
+    "srcIP": "192.168.1.140",
+    "dstIP": "142.250.241.42",
+    "size": 1064,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:43.475Z"
+  },
+  {
+    "id": "823ajd",
+    "time": "10:26:43 PM",
+    "srcIP": "192.168.1.36",
+    "dstIP": "142.250.251.36",
+    "size": 540,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:43.507Z"
+  },
+  {
+    "id": "sz7pht",
+    "time": "10:26:43 PM",
+    "srcIP": "192.168.1.110",
+    "dstIP": "142.250.49.231",
+    "size": 395,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:43.538Z"
+  },
+  {
+    "id": "jmtobs",
+    "time": "10:26:43 PM",
+    "srcIP": "192.168.1.209",
+    "dstIP": "142.250.177.190",
+    "size": 1537,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:43.569Z"
+  },
+  {
+    "id": "qidi1k",
+    "time": "10:26:43 PM",
+    "srcIP": "192.168.1.232",
+    "dstIP": "142.250.88.31",
+    "size": 580,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:43.600Z"
+  },
+  {
+    "id": "nw25yd",
+    "time": "10:26:43 PM",
+    "srcIP": "192.168.1.126",
+    "dstIP": "142.250.56.200",
+    "size": 1204,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:43.631Z"
+  },
+  {
+    "id": "1innxt",
+    "time": "10:26:43 PM",
+    "srcIP": "192.168.1.146",
+    "dstIP": "142.250.181.182",
+    "size": 1108,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:43.663Z"
+  },
+  {
+    "id": "s43czo",
+    "time": "10:26:43 PM",
+    "srcIP": "192.168.1.100",
+    "dstIP": "142.250.106.5",
+    "size": 274,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:43.695Z"
+  },
+  {
+    "id": "kypeel",
+    "time": "10:26:43 PM",
+    "srcIP": "192.168.1.26",
+    "dstIP": "142.250.228.167",
+    "size": 1282,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:43.725Z"
+  },
+  {
+    "id": "slge3m",
+    "time": "10:26:43 PM",
+    "srcIP": "192.168.1.222",
+    "dstIP": "142.250.239.156",
+    "size": 1116,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:43.756Z"
+  },
+  {
+    "id": "rrm3uo",
+    "time": "10:26:43 PM",
+    "srcIP": "192.168.1.213",
+    "dstIP": "142.250.223.111",
+    "size": 1550,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:43.788Z"
+  },
+  {
+    "id": "mwmyyj",
+    "time": "10:26:43 PM",
+    "srcIP": "192.168.1.4",
+    "dstIP": "142.250.101.222",
+    "size": 85,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:43.819Z"
+  },
+  {
+    "id": "t1c4q4",
+    "time": "10:26:43 PM",
+    "srcIP": "192.168.1.172",
+    "dstIP": "142.250.51.7",
+    "size": 548,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:43.849Z"
+  },
+  {
+    "id": "ge31j",
+    "time": "10:26:43 PM",
+    "srcIP": "192.168.1.102",
+    "dstIP": "142.250.212.87",
+    "size": 1304,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:43.880Z"
+  },
+  {
+    "id": "x6vph",
+    "time": "10:26:43 PM",
+    "srcIP": "192.168.1.71",
+    "dstIP": "142.250.109.98",
+    "size": 872,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:43.911Z"
+  },
+  {
+    "id": "dpywf3",
+    "time": "10:26:43 PM",
+    "srcIP": "192.168.1.251",
+    "dstIP": "142.250.149.35",
+    "size": 816,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:43.942Z"
+  },
+  {
+    "id": "62zjrw",
+    "time": "10:26:43 PM",
+    "srcIP": "192.168.1.39",
+    "dstIP": "142.250.129.226",
+    "size": 905,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:43.973Z"
+  },
+  {
+    "id": "hmx2hi",
+    "time": "10:26:44 PM",
+    "srcIP": "192.168.1.193",
+    "dstIP": "142.250.66.73",
+    "size": 859,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:44.003Z"
+  },
+  {
+    "id": "619boh",
+    "time": "10:26:44 PM",
+    "srcIP": "192.168.1.183",
+    "dstIP": "142.250.145.59",
+    "size": 700,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:44.035Z"
+  },
+  {
+    "id": "s1gu7",
+    "time": "10:26:44 PM",
+    "srcIP": "192.168.1.0",
+    "dstIP": "142.250.39.97",
+    "size": 988,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:44.065Z"
+  },
+  {
+    "id": "z57xx",
+    "time": "10:26:44 PM",
+    "srcIP": "192.168.1.178",
+    "dstIP": "142.250.251.30",
+    "size": 217,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:44.097Z"
+  },
+  {
+    "id": "lvx4cs",
+    "time": "10:26:44 PM",
+    "srcIP": "192.168.1.215",
+    "dstIP": "142.250.239.196",
+    "size": 627,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:44.128Z"
+  },
+  {
+    "id": "riru1",
+    "time": "10:26:44 PM",
+    "srcIP": "192.168.1.19",
+    "dstIP": "142.250.38.60",
+    "size": 695,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:44.158Z"
+  },
+  {
+    "id": "m48lre",
+    "time": "10:26:44 PM",
+    "srcIP": "192.168.1.163",
+    "dstIP": "142.250.22.78",
+    "size": 199,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:44.189Z"
+  },
+  {
+    "id": "3tzxcs",
+    "time": "10:26:44 PM",
+    "srcIP": "192.168.1.113",
+    "dstIP": "142.250.198.87",
+    "size": 732,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:44.219Z"
+  },
+  {
+    "id": "bgkeua",
+    "time": "10:26:44 PM",
+    "srcIP": "192.168.1.81",
+    "dstIP": "142.250.167.85",
+    "size": 113,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:44.250Z"
+  },
+  {
+    "id": "vkfk3h",
+    "time": "10:26:44 PM",
+    "srcIP": "192.168.1.160",
+    "dstIP": "142.250.100.77",
+    "size": 1476,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:44.281Z"
+  },
+  {
+    "id": "6i52rs",
+    "time": "10:26:44 PM",
+    "srcIP": "192.168.1.21",
+    "dstIP": "142.250.42.81",
+    "size": 616,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:44.314Z"
+  },
+  {
+    "id": "1wo4kp",
+    "time": "10:26:44 PM",
+    "srcIP": "192.168.1.179",
+    "dstIP": "142.250.98.191",
+    "size": 1336,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:44.345Z"
+  },
+  {
+    "id": "qfl9w",
+    "time": "10:26:44 PM",
+    "srcIP": "192.168.1.76",
+    "dstIP": "142.250.35.103",
+    "size": 79,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:44.376Z"
+  },
+  {
+    "id": "gm4qbb",
+    "time": "10:26:44 PM",
+    "srcIP": "192.168.1.189",
+    "dstIP": "142.250.192.67",
+    "size": 1031,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:44.407Z"
+  },
+  {
+    "id": "cbb5x8",
+    "time": "10:26:44 PM",
+    "srcIP": "192.168.1.153",
+    "dstIP": "142.250.198.183",
+    "size": 1463,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:44.440Z"
+  },
+  {
+    "id": "c1izg",
+    "time": "10:26:44 PM",
+    "srcIP": "192.168.1.73",
+    "dstIP": "142.250.181.133",
+    "size": 132,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:44.469Z"
+  },
+  {
+    "id": "ebkouh",
+    "time": "10:26:44 PM",
+    "srcIP": "192.168.1.217",
+    "dstIP": "142.250.84.160",
+    "size": 278,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:44.500Z"
+  },
+  {
+    "id": "8zpsie",
+    "time": "10:26:44 PM",
+    "srcIP": "192.168.1.118",
+    "dstIP": "142.250.213.131",
+    "size": 1223,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:44.532Z"
+  },
+  {
+    "id": "ixnzoa",
+    "time": "10:26:44 PM",
+    "srcIP": "192.168.1.182",
+    "dstIP": "142.250.225.117",
+    "size": 877,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:44.562Z"
+  },
+  {
+    "id": "z5de7y",
+    "time": "10:26:44 PM",
+    "srcIP": "192.168.1.237",
+    "dstIP": "142.250.28.232",
+    "size": 762,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:44.593Z"
+  },
+  {
+    "id": "renqqn",
+    "time": "10:26:44 PM",
+    "srcIP": "192.168.1.177",
+    "dstIP": "142.250.126.149",
+    "size": 832,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:44.625Z"
+  },
+  {
+    "id": "ay183",
+    "time": "10:26:44 PM",
+    "srcIP": "192.168.1.55",
+    "dstIP": "142.250.214.90",
+    "size": 1141,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:44.655Z"
+  },
+  {
+    "id": "m19llb",
+    "time": "10:26:44 PM",
+    "srcIP": "192.168.1.43",
+    "dstIP": "142.250.118.191",
+    "size": 232,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:44.686Z"
+  },
+  {
+    "id": "7xwtr",
+    "time": "10:26:44 PM",
+    "srcIP": "192.168.1.249",
+    "dstIP": "142.250.153.180",
+    "size": 1483,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:44.718Z"
+  },
+  {
+    "id": "d4wva",
+    "time": "10:26:44 PM",
+    "srcIP": "192.168.1.218",
+    "dstIP": "142.250.150.116",
+    "size": 732,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:44.749Z"
+  },
+  {
+    "id": "4qavii",
+    "time": "10:26:44 PM",
+    "srcIP": "192.168.1.98",
+    "dstIP": "142.250.199.17",
+    "size": 261,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:44.779Z"
+  },
+  {
+    "id": "n6f2dp",
+    "time": "10:26:44 PM",
+    "srcIP": "192.168.1.169",
+    "dstIP": "142.250.87.187",
+    "size": 799,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:44.810Z"
+  },
+  {
+    "id": "rrw1ae",
+    "time": "10:26:44 PM",
+    "srcIP": "192.168.1.254",
+    "dstIP": "142.250.141.164",
+    "size": 660,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:44.841Z"
+  },
+  {
+    "id": "1ai10n",
+    "time": "10:26:44 PM",
+    "srcIP": "192.168.1.141",
+    "dstIP": "142.250.188.139",
+    "size": 1320,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:44.872Z"
+  },
+  {
+    "id": "97pwp8",
+    "time": "10:26:44 PM",
+    "srcIP": "192.168.1.142",
+    "dstIP": "142.250.165.18",
+    "size": 86,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:44.903Z"
+  },
+  {
+    "id": "3h7y0h",
+    "time": "10:26:44 PM",
+    "srcIP": "192.168.1.138",
+    "dstIP": "142.250.167.122",
+    "size": 585,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:44.934Z"
+  },
+  {
+    "id": "b9f36",
+    "time": "10:26:44 PM",
+    "srcIP": "192.168.1.93",
+    "dstIP": "142.250.143.173",
+    "size": 1559,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:44.965Z"
+  },
+  {
+    "id": "v0xgkq",
+    "time": "10:26:44 PM",
+    "srcIP": "192.168.1.163",
+    "dstIP": "142.250.150.163",
+    "size": 1336,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:44.995Z"
+  },
+  {
+    "id": "faww4a",
+    "time": "10:26:45 PM",
+    "srcIP": "192.168.1.43",
+    "dstIP": "142.250.71.233",
+    "size": 1517,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:45.026Z"
+  },
+  {
+    "id": "zh42h",
+    "time": "10:26:45 PM",
+    "srcIP": "192.168.1.37",
+    "dstIP": "142.250.219.90",
+    "size": 319,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:45.057Z"
+  },
+  {
+    "id": "4ugrvd",
+    "time": "10:26:45 PM",
+    "srcIP": "192.168.1.93",
+    "dstIP": "142.250.133.202",
+    "size": 1487,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:45.088Z"
+  },
+  {
+    "id": "4859k",
+    "time": "10:26:45 PM",
+    "srcIP": "192.168.1.107",
+    "dstIP": "142.250.134.204",
+    "size": 240,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:45.118Z"
+  },
+  {
+    "id": "3w79mc",
+    "time": "10:26:45 PM",
+    "srcIP": "192.168.1.186",
+    "dstIP": "142.250.144.233",
+    "size": 500,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:45.150Z"
+  },
+  {
+    "id": "ernjpk",
+    "time": "10:26:45 PM",
+    "srcIP": "192.168.1.129",
+    "dstIP": "142.250.46.60",
+    "size": 864,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:45.181Z"
+  },
+  {
+    "id": "7yt4er",
+    "time": "10:26:45 PM",
+    "srcIP": "192.168.1.158",
+    "dstIP": "142.250.239.184",
+    "size": 830,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:45.211Z"
+  },
+  {
+    "id": "7yt7uk",
+    "time": "10:26:45 PM",
+    "srcIP": "192.168.1.93",
+    "dstIP": "142.250.251.127",
+    "size": 632,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:45.242Z"
+  },
+  {
+    "id": "ljbsci",
+    "time": "10:26:45 PM",
+    "srcIP": "192.168.1.128",
+    "dstIP": "142.250.35.23",
+    "size": 628,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:45.273Z"
+  },
+  {
+    "id": "j6tmjd",
+    "time": "10:26:45 PM",
+    "srcIP": "192.168.1.134",
+    "dstIP": "142.250.238.43",
+    "size": 856,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:45.305Z"
+  },
+  {
+    "id": "2l2002h",
+    "time": "10:26:45 PM",
+    "srcIP": "192.168.1.165",
+    "dstIP": "142.250.104.224",
+    "size": 446,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:45.335Z"
+  },
+  {
+    "id": "wxqhtx",
+    "time": "10:26:45 PM",
+    "srcIP": "192.168.1.72",
+    "dstIP": "142.250.195.214",
+    "size": 1522,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:45.365Z"
+  },
+  {
+    "id": "nae3bq",
+    "time": "10:26:45 PM",
+    "srcIP": "192.168.1.159",
+    "dstIP": "142.250.38.224",
+    "size": 1406,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:45.396Z"
+  },
+  {
+    "id": "4pz8nk",
+    "time": "10:26:45 PM",
+    "srcIP": "192.168.1.48",
+    "dstIP": "142.250.194.57",
+    "size": 1243,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:45.427Z"
+  },
+  {
+    "id": "vm3pni",
+    "time": "10:26:45 PM",
+    "srcIP": "192.168.1.236",
+    "dstIP": "142.250.87.132",
+    "size": 1329,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:45.458Z"
+  },
+  {
+    "id": "jpd7u9",
+    "time": "10:26:45 PM",
+    "srcIP": "192.168.1.133",
+    "dstIP": "142.250.227.75",
+    "size": 481,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:45.489Z"
+  },
+  {
+    "id": "iwjm9t",
+    "time": "10:26:45 PM",
+    "srcIP": "192.168.1.53",
+    "dstIP": "142.250.213.122",
+    "size": 349,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:45.519Z"
+  },
+  {
+    "id": "5qamng",
+    "time": "10:26:45 PM",
+    "srcIP": "192.168.1.242",
+    "dstIP": "142.250.122.33",
+    "size": 739,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:45.550Z"
+  },
+  {
+    "id": "u26e2g",
+    "time": "10:26:45 PM",
+    "srcIP": "192.168.1.206",
+    "dstIP": "142.250.41.80",
+    "size": 87,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:45.582Z"
+  },
+  {
+    "id": "ap34eh",
+    "time": "10:26:45 PM",
+    "srcIP": "192.168.1.176",
+    "dstIP": "142.250.237.68",
+    "size": 567,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:45.614Z"
+  },
+  {
+    "id": "2bwveg",
+    "time": "10:26:45 PM",
+    "srcIP": "192.168.1.30",
+    "dstIP": "142.250.131.77",
+    "size": 1062,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:45.644Z"
+  },
+  {
+    "id": "q4oq4n",
+    "time": "10:26:45 PM",
+    "srcIP": "192.168.1.170",
+    "dstIP": "142.250.95.61",
+    "size": 374,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:45.674Z"
+  },
+  {
+    "id": "p9ybzm",
+    "time": "10:26:45 PM",
+    "srcIP": "192.168.1.33",
+    "dstIP": "142.250.40.10",
+    "size": 1229,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:45.706Z"
+  },
+  {
+    "id": "547z8q",
+    "time": "10:26:45 PM",
+    "srcIP": "192.168.1.148",
+    "dstIP": "142.250.104.233",
+    "size": 219,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:45.737Z"
+  },
+  {
+    "id": "ulnepa",
+    "time": "10:26:45 PM",
+    "srcIP": "192.168.1.230",
+    "dstIP": "142.250.18.210",
+    "size": 1553,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:45.767Z"
+  },
+  {
+    "id": "asajfb",
+    "time": "10:26:45 PM",
+    "srcIP": "192.168.1.21",
+    "dstIP": "142.250.58.57",
+    "size": 1297,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:45.798Z"
+  },
+  {
+    "id": "fggg29",
+    "time": "10:26:45 PM",
+    "srcIP": "192.168.1.236",
+    "dstIP": "142.250.15.178",
+    "size": 84,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:45.829Z"
+  },
+  {
+    "id": "wj7sv",
+    "time": "10:26:45 PM",
+    "srcIP": "192.168.1.112",
+    "dstIP": "142.250.189.173",
+    "size": 1247,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:45.860Z"
+  },
+  {
+    "id": "rtm8x",
+    "time": "10:26:45 PM",
+    "srcIP": "192.168.1.55",
+    "dstIP": "142.250.91.87",
+    "size": 1536,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:45.892Z"
+  },
+  {
+    "id": "7wi3sl",
+    "time": "10:26:45 PM",
+    "srcIP": "192.168.1.166",
+    "dstIP": "142.250.224.232",
+    "size": 222,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:45.923Z"
+  },
+  {
+    "id": "dtwq8",
+    "time": "10:26:45 PM",
+    "srcIP": "192.168.1.21",
+    "dstIP": "142.250.180.119",
+    "size": 1561,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:45.954Z"
+  },
+  {
+    "id": "7nh37a",
+    "time": "10:26:45 PM",
+    "srcIP": "192.168.1.37",
+    "dstIP": "142.250.87.19",
+    "size": 986,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:45.986Z"
+  },
+  {
+    "id": "b09t0v",
+    "time": "10:26:46 PM",
+    "srcIP": "192.168.1.58",
+    "dstIP": "142.250.226.116",
+    "size": 1330,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:46.018Z"
+  },
+  {
+    "id": "33h18i",
+    "time": "10:26:46 PM",
+    "srcIP": "192.168.1.35",
+    "dstIP": "142.250.160.36",
+    "size": 693,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:46.048Z"
+  },
+  {
+    "id": "1qbzd",
+    "time": "10:26:46 PM",
+    "srcIP": "192.168.1.216",
+    "dstIP": "142.250.131.188",
+    "size": 1100,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:46.081Z"
+  },
+  {
+    "id": "ds1sy",
+    "time": "10:26:46 PM",
+    "srcIP": "192.168.1.254",
+    "dstIP": "142.250.137.122",
+    "size": 428,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:46.110Z"
+  },
+  {
+    "id": "nwxxz8",
+    "time": "10:26:46 PM",
+    "srcIP": "192.168.1.193",
+    "dstIP": "142.250.98.15",
+    "size": 1003,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:46.141Z"
+  },
+  {
+    "id": "vrr0x",
+    "time": "10:26:46 PM",
+    "srcIP": "192.168.1.112",
+    "dstIP": "142.250.214.126",
+    "size": 383,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:46.172Z"
+  },
+  {
+    "id": "dq6r8c",
+    "time": "10:26:46 PM",
+    "srcIP": "192.168.1.230",
+    "dstIP": "142.250.96.141",
+    "size": 212,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:46.202Z"
+  },
+  {
+    "id": "p5h0ig",
+    "time": "10:26:46 PM",
+    "srcIP": "192.168.1.182",
+    "dstIP": "142.250.186.195",
+    "size": 328,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:46.234Z"
+  },
+  {
+    "id": "3xe1px",
+    "time": "10:26:46 PM",
+    "srcIP": "192.168.1.220",
+    "dstIP": "142.250.211.65",
+    "size": 582,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:46.264Z"
+  },
+  {
+    "id": "u9d09n",
+    "time": "10:26:46 PM",
+    "srcIP": "192.168.1.212",
+    "dstIP": "142.250.198.78",
+    "size": 292,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:46.295Z"
+  },
+  {
+    "id": "t1uvgl",
+    "time": "10:26:46 PM",
+    "srcIP": "192.168.1.108",
+    "dstIP": "142.250.110.7",
+    "size": 1244,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:46.326Z"
+  },
+  {
+    "id": "46zk",
+    "time": "10:26:46 PM",
+    "srcIP": "192.168.1.151",
+    "dstIP": "142.250.23.165",
+    "size": 1455,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:46.359Z"
+  },
+  {
+    "id": "mvv9x",
+    "time": "10:26:46 PM",
+    "srcIP": "192.168.1.100",
+    "dstIP": "142.250.206.72",
+    "size": 521,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:46.388Z"
+  },
+  {
+    "id": "nodhw",
+    "time": "10:26:46 PM",
+    "srcIP": "192.168.1.241",
+    "dstIP": "142.250.182.245",
+    "size": 452,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:46.419Z"
+  },
+  {
+    "id": "p2hc9qh",
+    "time": "10:26:46 PM",
+    "srcIP": "192.168.1.16",
+    "dstIP": "142.250.200.78",
+    "size": 658,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:46.449Z"
+  },
+  {
+    "id": "qvwjyj",
+    "time": "10:26:46 PM",
+    "srcIP": "192.168.1.230",
+    "dstIP": "142.250.144.44",
+    "size": 245,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:46.481Z"
+  },
+  {
+    "id": "8kbmi",
+    "time": "10:26:46 PM",
+    "srcIP": "192.168.1.193",
+    "dstIP": "142.250.76.85",
+    "size": 1195,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:46.512Z"
+  },
+  {
+    "id": "fj2ca",
+    "time": "10:26:46 PM",
+    "srcIP": "192.168.1.223",
+    "dstIP": "142.250.36.188",
+    "size": 241,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:46.543Z"
+  },
+  {
+    "id": "wpx05",
+    "time": "10:26:46 PM",
+    "srcIP": "192.168.1.253",
+    "dstIP": "142.250.169.108",
+    "size": 1239,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:46.574Z"
+  },
+  {
+    "id": "wjr73j",
+    "time": "10:26:46 PM",
+    "srcIP": "192.168.1.193",
+    "dstIP": "142.250.214.36",
+    "size": 859,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:46.605Z"
+  },
+  {
+    "id": "5g95y",
+    "time": "10:26:46 PM",
+    "srcIP": "192.168.1.75",
+    "dstIP": "142.250.66.58",
+    "size": 394,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:46.636Z"
+  },
+  {
+    "id": "lpzuz",
+    "time": "10:26:46 PM",
+    "srcIP": "192.168.1.150",
+    "dstIP": "142.250.35.155",
+    "size": 387,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:46.667Z"
+  },
+  {
+    "id": "i35kwj",
+    "time": "10:26:46 PM",
+    "srcIP": "192.168.1.212",
+    "dstIP": "142.250.38.226",
+    "size": 969,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:46.698Z"
+  },
+  {
+    "id": "ruxfij",
+    "time": "10:26:46 PM",
+    "srcIP": "192.168.1.225",
+    "dstIP": "142.250.235.103",
+    "size": 160,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:46.730Z"
+  },
+  {
+    "id": "mkziqd",
+    "time": "10:26:46 PM",
+    "srcIP": "192.168.1.193",
+    "dstIP": "142.250.139.14",
+    "size": 176,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:46.761Z"
+  },
+  {
+    "id": "cuqsn6",
+    "time": "10:26:46 PM",
+    "srcIP": "192.168.1.228",
+    "dstIP": "142.250.26.46",
+    "size": 1373,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:46.793Z"
+  },
+  {
+    "id": "d0yt3k",
+    "time": "10:26:46 PM",
+    "srcIP": "192.168.1.173",
+    "dstIP": "142.250.11.235",
+    "size": 205,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:46.823Z"
+  },
+  {
+    "id": "emu83k",
+    "time": "10:26:46 PM",
+    "srcIP": "192.168.1.110",
+    "dstIP": "142.250.90.7",
+    "size": 352,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:46.854Z"
+  },
+  {
+    "id": "xg8hvn",
+    "time": "10:26:46 PM",
+    "srcIP": "192.168.1.98",
+    "dstIP": "142.250.73.154",
+    "size": 86,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:46.886Z"
+  },
+  {
+    "id": "2kn68w",
+    "time": "10:26:46 PM",
+    "srcIP": "192.168.1.49",
+    "dstIP": "142.250.80.18",
+    "size": 502,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:46.918Z"
+  },
+  {
+    "id": "acdywx",
+    "time": "10:26:46 PM",
+    "srcIP": "192.168.1.159",
+    "dstIP": "142.250.207.241",
+    "size": 829,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:46.948Z"
+  },
+  {
+    "id": "zs3hkn",
+    "time": "10:26:46 PM",
+    "srcIP": "192.168.1.216",
+    "dstIP": "142.250.209.114",
+    "size": 923,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:46.978Z"
+  },
+  {
+    "id": "06r3r",
+    "time": "10:26:47 PM",
+    "srcIP": "192.168.1.173",
+    "dstIP": "142.250.236.39",
+    "size": 447,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:47.010Z"
+  },
+  {
+    "id": "krqzw",
+    "time": "10:26:47 PM",
+    "srcIP": "192.168.1.169",
+    "dstIP": "142.250.2.250",
+    "size": 1108,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:47.040Z"
+  },
+  {
+    "id": "phmgtl",
+    "time": "10:26:47 PM",
+    "srcIP": "192.168.1.213",
+    "dstIP": "142.250.193.77",
+    "size": 1343,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:47.071Z"
+  },
+  {
+    "id": "wuu24",
+    "time": "10:26:47 PM",
+    "srcIP": "192.168.1.15",
+    "dstIP": "142.250.199.131",
+    "size": 134,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:47.103Z"
+  },
+  {
+    "id": "e5q4sh",
+    "time": "10:26:47 PM",
+    "srcIP": "192.168.1.241",
+    "dstIP": "142.250.45.195",
+    "size": 827,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:47.134Z"
+  },
+  {
+    "id": "hxrv8q",
+    "time": "10:26:47 PM",
+    "srcIP": "192.168.1.86",
+    "dstIP": "142.250.15.11",
+    "size": 1283,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:47.165Z"
+  },
+  {
+    "id": "kp3qna",
+    "time": "10:26:47 PM",
+    "srcIP": "192.168.1.49",
+    "dstIP": "142.250.190.251",
+    "size": 576,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:47.196Z"
+  },
+  {
+    "id": "ewypvl",
+    "time": "10:26:47 PM",
+    "srcIP": "192.168.1.0",
+    "dstIP": "142.250.201.101",
+    "size": 973,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:47.226Z"
+  },
+  {
+    "id": "95z43p",
+    "time": "10:26:47 PM",
+    "srcIP": "192.168.1.216",
+    "dstIP": "142.250.21.252",
+    "size": 1242,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:47.258Z"
+  },
+  {
+    "id": "gflm3a",
+    "time": "10:26:47 PM",
+    "srcIP": "192.168.1.72",
+    "dstIP": "142.250.222.166",
+    "size": 210,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:47.289Z"
+  },
+  {
+    "id": "09zunf",
+    "time": "10:26:47 PM",
+    "srcIP": "192.168.1.129",
+    "dstIP": "142.250.169.33",
+    "size": 1207,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:47.320Z"
+  },
+  {
+    "id": "5s9avb",
+    "time": "10:26:47 PM",
+    "srcIP": "192.168.1.6",
+    "dstIP": "142.250.146.76",
+    "size": 529,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:47.351Z"
+  },
+  {
+    "id": "aqadnk",
+    "time": "10:26:47 PM",
+    "srcIP": "192.168.1.68",
+    "dstIP": "142.250.80.64",
+    "size": 743,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:47.382Z"
+  },
+  {
+    "id": "c9gzio",
+    "time": "10:26:47 PM",
+    "srcIP": "192.168.1.19",
+    "dstIP": "142.250.143.60",
+    "size": 275,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:47.414Z"
+  },
+  {
+    "id": "0lu3i",
+    "time": "10:26:47 PM",
+    "srcIP": "192.168.1.149",
+    "dstIP": "142.250.252.43",
+    "size": 1199,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:47.444Z"
+  },
+  {
+    "id": "i34sac",
+    "time": "10:26:47 PM",
+    "srcIP": "192.168.1.98",
+    "dstIP": "142.250.160.228",
+    "size": 1520,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:47.474Z"
+  },
+  {
+    "id": "aytgmi",
+    "time": "10:26:47 PM",
+    "srcIP": "192.168.1.83",
+    "dstIP": "142.250.80.159",
+    "size": 1070,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:47.505Z"
+  },
+  {
+    "id": "57l4qh",
+    "time": "10:26:47 PM",
+    "srcIP": "192.168.1.100",
+    "dstIP": "142.250.133.29",
+    "size": 110,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:47.536Z"
+  },
+  {
+    "id": "chtdf1g",
+    "time": "10:26:47 PM",
+    "srcIP": "192.168.1.1",
+    "dstIP": "142.250.218.70",
+    "size": 1522,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:47.567Z"
+  },
+  {
+    "id": "4s1kjf",
+    "time": "10:26:47 PM",
+    "srcIP": "192.168.1.134",
+    "dstIP": "142.250.77.114",
+    "size": 685,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:47.598Z"
+  },
+  {
+    "id": "ua2ei",
+    "time": "10:26:47 PM",
+    "srcIP": "192.168.1.16",
+    "dstIP": "142.250.27.54",
+    "size": 427,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:47.628Z"
+  },
+  {
+    "id": "roxirsd",
+    "time": "10:26:47 PM",
+    "srcIP": "192.168.1.112",
+    "dstIP": "142.250.210.19",
+    "size": 830,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:47.660Z"
+  },
+  {
+    "id": "dkja1e",
+    "time": "10:26:47 PM",
+    "srcIP": "192.168.1.144",
+    "dstIP": "142.250.82.130",
+    "size": 844,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:47.690Z"
+  },
+  {
+    "id": "aqz91",
+    "time": "10:26:47 PM",
+    "srcIP": "192.168.1.9",
+    "dstIP": "142.250.110.196",
+    "size": 828,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:47.722Z"
+  },
+  {
+    "id": "ywmzx",
+    "time": "10:26:47 PM",
+    "srcIP": "192.168.1.48",
+    "dstIP": "142.250.39.227",
+    "size": 709,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:47.752Z"
+  },
+  {
+    "id": "wn894h",
+    "time": "10:26:47 PM",
+    "srcIP": "192.168.1.75",
+    "dstIP": "142.250.56.40",
+    "size": 395,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:47.783Z"
+  },
+  {
+    "id": "tda2q",
+    "time": "10:26:47 PM",
+    "srcIP": "192.168.1.67",
+    "dstIP": "142.250.47.220",
+    "size": 121,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:47.814Z"
+  },
+  {
+    "id": "3sxam7",
+    "time": "10:26:47 PM",
+    "srcIP": "192.168.1.11",
+    "dstIP": "142.250.46.86",
+    "size": 1514,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:47.845Z"
+  },
+  {
+    "id": "mr2iz",
+    "time": "10:26:47 PM",
+    "srcIP": "192.168.1.187",
+    "dstIP": "142.250.171.115",
+    "size": 225,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:47.875Z"
+  },
+  {
+    "id": "jjwkdk",
+    "time": "10:26:47 PM",
+    "srcIP": "192.168.1.33",
+    "dstIP": "142.250.235.230",
+    "size": 384,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:47.907Z"
+  },
+  {
+    "id": "p3x38w",
+    "time": "10:26:47 PM",
+    "srcIP": "192.168.1.196",
+    "dstIP": "142.250.49.102",
+    "size": 169,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:47.938Z"
+  },
+  {
+    "id": "qeuu0n",
+    "time": "10:26:47 PM",
+    "srcIP": "192.168.1.190",
+    "dstIP": "142.250.69.88",
+    "size": 255,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:47.970Z"
+  },
+  {
+    "id": "zx3pxe",
+    "time": "10:26:48 PM",
+    "srcIP": "192.168.1.212",
+    "dstIP": "142.250.90.134",
+    "size": 814,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:48.000Z"
+  },
+  {
+    "id": "ui9aan",
+    "time": "10:26:48 PM",
+    "srcIP": "192.168.1.120",
+    "dstIP": "142.250.173.137",
+    "size": 1189,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:48.031Z"
+  },
+  {
+    "id": "id8n0l",
+    "time": "10:26:48 PM",
+    "srcIP": "192.168.1.144",
+    "dstIP": "142.250.99.180",
+    "size": 1414,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:48.063Z"
+  },
+  {
+    "id": "t53fdq",
+    "time": "10:26:48 PM",
+    "srcIP": "192.168.1.196",
+    "dstIP": "142.250.191.54",
+    "size": 1291,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:48.093Z"
+  },
+  {
+    "id": "xn9m5jq",
+    "time": "10:26:48 PM",
+    "srcIP": "192.168.1.243",
+    "dstIP": "142.250.9.133",
+    "size": 914,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:48.125Z"
+  },
+  {
+    "id": "ucjx7w",
+    "time": "10:26:48 PM",
+    "srcIP": "192.168.1.41",
+    "dstIP": "142.250.30.76",
+    "size": 1300,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:48.155Z"
+  },
+  {
+    "id": "clq0ed",
+    "time": "10:26:48 PM",
+    "srcIP": "192.168.1.137",
+    "dstIP": "142.250.103.70",
+    "size": 886,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:48.186Z"
+  },
+  {
+    "id": "7vem8b",
+    "time": "10:26:48 PM",
+    "srcIP": "192.168.1.231",
+    "dstIP": "142.250.157.166",
+    "size": 291,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:48.217Z"
+  },
+  {
+    "id": "tcbptm",
+    "time": "10:26:48 PM",
+    "srcIP": "192.168.1.82",
+    "dstIP": "142.250.92.104",
+    "size": 801,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:48.248Z"
+  },
+  {
+    "id": "8v0f7",
+    "time": "10:26:48 PM",
+    "srcIP": "192.168.1.54",
+    "dstIP": "142.250.252.177",
+    "size": 1345,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:48.279Z"
+  },
+  {
+    "id": "nl3r4l",
+    "time": "10:26:48 PM",
+    "srcIP": "192.168.1.149",
+    "dstIP": "142.250.234.87",
+    "size": 587,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:48.310Z"
+  },
+  {
+    "id": "thw7c2",
+    "time": "10:26:48 PM",
+    "srcIP": "192.168.1.62",
+    "dstIP": "142.250.228.221",
+    "size": 1426,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:48.342Z"
+  },
+  {
+    "id": "2h0ljb",
+    "time": "10:26:48 PM",
+    "srcIP": "192.168.1.152",
+    "dstIP": "142.250.241.18",
+    "size": 1538,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:48.373Z"
+  },
+  {
+    "id": "7nxgm",
+    "time": "10:26:48 PM",
+    "srcIP": "192.168.1.242",
+    "dstIP": "142.250.109.139",
+    "size": 209,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:48.404Z"
+  },
+  {
+    "id": "ntdvnf",
+    "time": "10:26:48 PM",
+    "srcIP": "192.168.1.36",
+    "dstIP": "142.250.159.56",
+    "size": 1393,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:48.435Z"
+  },
+  {
+    "id": "cmu57q",
+    "time": "10:26:48 PM",
+    "srcIP": "192.168.1.183",
+    "dstIP": "142.250.232.151",
+    "size": 619,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:48.465Z"
+  },
+  {
+    "id": "p13vuc",
+    "time": "10:26:48 PM",
+    "srcIP": "192.168.1.155",
+    "dstIP": "142.250.193.147",
+    "size": 158,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:48.496Z"
+  },
+  {
+    "id": "l12lf",
+    "time": "10:26:48 PM",
+    "srcIP": "192.168.1.93",
+    "dstIP": "142.250.113.51",
+    "size": 1111,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:48.527Z"
+  },
+  {
+    "id": "7hi4uo",
+    "time": "10:26:48 PM",
+    "srcIP": "192.168.1.212",
+    "dstIP": "142.250.181.114",
+    "size": 894,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:48.558Z"
+  },
+  {
+    "id": "zyo425",
+    "time": "10:26:48 PM",
+    "srcIP": "192.168.1.33",
+    "dstIP": "142.250.117.72",
+    "size": 1230,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:48.591Z"
+  },
+  {
+    "id": "9tams8",
+    "time": "10:26:48 PM",
+    "srcIP": "192.168.1.243",
+    "dstIP": "142.250.94.90",
+    "size": 484,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:48.620Z"
+  },
+  {
+    "id": "8m84rf",
+    "time": "10:26:48 PM",
+    "srcIP": "192.168.1.161",
+    "dstIP": "142.250.49.240",
+    "size": 235,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:48.651Z"
+  },
+  {
+    "id": "3aju7n",
+    "time": "10:26:48 PM",
+    "srcIP": "192.168.1.85",
+    "dstIP": "142.250.101.201",
+    "size": 1170,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:48.684Z"
+  },
+  {
+    "id": "drfb2r",
+    "time": "10:26:48 PM",
+    "srcIP": "192.168.1.177",
+    "dstIP": "142.250.159.195",
+    "size": 1285,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:48.717Z"
+  },
+  {
+    "id": "4z9gdr",
+    "time": "10:26:48 PM",
+    "srcIP": "192.168.1.82",
+    "dstIP": "142.250.126.226",
+    "size": 1106,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:48.745Z"
+  },
+  {
+    "id": "izuas",
+    "time": "10:26:48 PM",
+    "srcIP": "192.168.1.36",
+    "dstIP": "142.250.55.109",
+    "size": 796,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:48.775Z"
+  },
+  {
+    "id": "q627gr",
+    "time": "10:26:48 PM",
+    "srcIP": "192.168.1.247",
+    "dstIP": "142.250.197.29",
+    "size": 897,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:48.805Z"
+  },
+  {
+    "id": "77iyth",
+    "time": "10:26:48 PM",
+    "srcIP": "192.168.1.43",
+    "dstIP": "142.250.11.106",
+    "size": 769,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:48.836Z"
+  },
+  {
+    "id": "t91g7h",
+    "time": "10:26:48 PM",
+    "srcIP": "192.168.1.215",
+    "dstIP": "142.250.243.61",
+    "size": 376,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:48.867Z"
+  },
+  {
+    "id": "oqwsl2r",
+    "time": "10:26:48 PM",
+    "srcIP": "192.168.1.20",
+    "dstIP": "142.250.176.242",
+    "size": 1400,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:48.898Z"
+  },
+  {
+    "id": "yg6c0n",
+    "time": "10:26:48 PM",
+    "srcIP": "192.168.1.213",
+    "dstIP": "142.250.17.147",
+    "size": 1365,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:48.929Z"
+  },
+  {
+    "id": "189q2k",
+    "time": "10:26:48 PM",
+    "srcIP": "192.168.1.164",
+    "dstIP": "142.250.5.232",
+    "size": 186,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:48.960Z"
+  },
+  {
+    "id": "s17sda",
+    "time": "10:26:48 PM",
+    "srcIP": "192.168.1.11",
+    "dstIP": "142.250.100.35",
+    "size": 1014,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:48.990Z"
+  },
+  {
+    "id": "6gl3e",
+    "time": "10:26:49 PM",
+    "srcIP": "192.168.1.84",
+    "dstIP": "142.250.216.233",
+    "size": 1022,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:49.021Z"
+  },
+  {
+    "id": "efmrz",
+    "time": "10:26:49 PM",
+    "srcIP": "192.168.1.164",
+    "dstIP": "142.250.181.206",
+    "size": 329,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:49.055Z"
+  },
+  {
+    "id": "y0oevm",
+    "time": "10:26:49 PM",
+    "srcIP": "192.168.1.192",
+    "dstIP": "142.250.183.91",
+    "size": 711,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:49.083Z"
+  },
+  {
+    "id": "ttjc7",
+    "time": "10:26:49 PM",
+    "srcIP": "192.168.1.161",
+    "dstIP": "142.250.63.4",
+    "size": 1482,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:49.115Z"
+  },
+  {
+    "id": "47kpv7",
+    "time": "10:26:49 PM",
+    "srcIP": "192.168.1.234",
+    "dstIP": "142.250.190.55",
+    "size": 736,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:49.146Z"
+  },
+  {
+    "id": "k7t6j",
+    "time": "10:26:49 PM",
+    "srcIP": "192.168.1.149",
+    "dstIP": "142.250.201.26",
+    "size": 72,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:49.176Z"
+  },
+  {
+    "id": "xswh0r",
+    "time": "10:26:49 PM",
+    "srcIP": "192.168.1.80",
+    "dstIP": "142.250.65.41",
+    "size": 869,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:49.208Z"
+  },
+  {
+    "id": "r8tj0h",
+    "time": "10:26:49 PM",
+    "srcIP": "192.168.1.210",
+    "dstIP": "142.250.36.53",
+    "size": 426,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:49.239Z"
+  },
+  {
+    "id": "cd8uqs",
+    "time": "10:26:49 PM",
+    "srcIP": "192.168.1.219",
+    "dstIP": "142.250.217.85",
+    "size": 943,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:49.269Z"
+  },
+  {
+    "id": "cl8np",
+    "time": "10:26:49 PM",
+    "srcIP": "192.168.1.197",
+    "dstIP": "142.250.35.163",
+    "size": 638,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:49.300Z"
+  },
+  {
+    "id": "km2rjz",
+    "time": "10:26:49 PM",
+    "srcIP": "192.168.1.127",
+    "dstIP": "142.250.128.41",
+    "size": 1339,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:49.331Z"
+  },
+  {
+    "id": "6eaqtt",
+    "time": "10:26:49 PM",
+    "srcIP": "192.168.1.247",
+    "dstIP": "142.250.1.246",
+    "size": 1363,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:49.362Z"
+  },
+  {
+    "id": "l8v11",
+    "time": "10:26:49 PM",
+    "srcIP": "192.168.1.3",
+    "dstIP": "142.250.178.235",
+    "size": 1177,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:49.392Z"
+  },
+  {
+    "id": "p1ebqe",
+    "time": "10:26:49 PM",
+    "srcIP": "192.168.1.3",
+    "dstIP": "142.250.172.13",
+    "size": 1548,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:49.424Z"
+  },
+  {
+    "id": "4i50o",
+    "time": "10:26:49 PM",
+    "srcIP": "192.168.1.59",
+    "dstIP": "142.250.215.88",
+    "size": 760,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:49.454Z"
+  },
+  {
+    "id": "lga77",
+    "time": "10:26:49 PM",
+    "srcIP": "192.168.1.207",
+    "dstIP": "142.250.13.250",
+    "size": 1019,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:49.485Z"
+  },
+  {
+    "id": "a15i8",
+    "time": "10:26:49 PM",
+    "srcIP": "192.168.1.220",
+    "dstIP": "142.250.135.143",
+    "size": 1186,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:49.521Z"
+  },
+  {
+    "id": "at2qyp",
+    "time": "10:26:49 PM",
+    "srcIP": "192.168.1.253",
+    "dstIP": "142.250.139.224",
+    "size": 735,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:49.548Z"
+  },
+  {
+    "id": "h2ns57",
+    "time": "10:26:49 PM",
+    "srcIP": "192.168.1.129",
+    "dstIP": "142.250.119.49",
+    "size": 944,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:49.578Z"
+  },
+  {
+    "id": "kpoi",
+    "time": "10:26:49 PM",
+    "srcIP": "192.168.1.31",
+    "dstIP": "142.250.94.218",
+    "size": 676,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:49.609Z"
+  },
+  {
+    "id": "x0f2g4",
+    "time": "10:26:49 PM",
+    "srcIP": "192.168.1.132",
+    "dstIP": "142.250.56.242",
+    "size": 90,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:49.640Z"
+  },
+  {
+    "id": "bua6q",
+    "time": "10:26:49 PM",
+    "srcIP": "192.168.1.107",
+    "dstIP": "142.250.139.134",
+    "size": 857,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:49.671Z"
+  },
+  {
+    "id": "5yt3v",
+    "time": "10:26:49 PM",
+    "srcIP": "192.168.1.102",
+    "dstIP": "142.250.232.56",
+    "size": 209,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:49.702Z"
+  },
+  {
+    "id": "sqyfno",
+    "time": "10:26:49 PM",
+    "srcIP": "192.168.1.65",
+    "dstIP": "142.250.208.21",
+    "size": 635,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:49.732Z"
+  },
+  {
+    "id": "6ywii8",
+    "time": "10:26:49 PM",
+    "srcIP": "192.168.1.133",
+    "dstIP": "142.250.205.23",
+    "size": 509,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:49.763Z"
+  },
+  {
+    "id": "iev3yd",
+    "time": "10:26:49 PM",
+    "srcIP": "192.168.1.114",
+    "dstIP": "142.250.39.192",
+    "size": 749,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:49.794Z"
+  },
+  {
+    "id": "ftw5ct",
+    "time": "10:26:49 PM",
+    "srcIP": "192.168.1.242",
+    "dstIP": "142.250.90.224",
+    "size": 1558,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:49.825Z"
+  },
+  {
+    "id": "6zh28",
+    "time": "10:26:49 PM",
+    "srcIP": "192.168.1.153",
+    "dstIP": "142.250.220.161",
+    "size": 1523,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:49.856Z"
+  },
+  {
+    "id": "lj01m",
+    "time": "10:26:49 PM",
+    "srcIP": "192.168.1.242",
+    "dstIP": "142.250.24.52",
+    "size": 1014,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:49.887Z"
+  },
+  {
+    "id": "bz4eo",
+    "time": "10:26:49 PM",
+    "srcIP": "192.168.1.101",
+    "dstIP": "142.250.84.123",
+    "size": 1308,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:49.919Z"
+  },
+  {
+    "id": "ncl2yk",
+    "time": "10:26:49 PM",
+    "srcIP": "192.168.1.146",
+    "dstIP": "142.250.245.207",
+    "size": 81,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:49.949Z"
+  },
+  {
+    "id": "mcbpzo",
+    "time": "10:26:49 PM",
+    "srcIP": "192.168.1.75",
+    "dstIP": "142.250.139.128",
+    "size": 1195,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:49.980Z"
+  },
+  {
+    "id": "5t61ua",
+    "time": "10:26:50 PM",
+    "srcIP": "192.168.1.170",
+    "dstIP": "142.250.103.4",
+    "size": 395,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:50.010Z"
+  },
+  {
+    "id": "qtxtyg",
+    "time": "10:26:50 PM",
+    "srcIP": "192.168.1.246",
+    "dstIP": "142.250.83.183",
+    "size": 1261,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:50.041Z"
+  },
+  {
+    "id": "kpsimc",
+    "time": "10:26:50 PM",
+    "srcIP": "192.168.1.35",
+    "dstIP": "142.250.9.190",
+    "size": 970,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:50.072Z"
+  },
+  {
+    "id": "k63s",
+    "time": "10:26:50 PM",
+    "srcIP": "192.168.1.86",
+    "dstIP": "142.250.220.107",
+    "size": 1442,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:50.103Z"
+  },
+  {
+    "id": "os9q5m",
+    "time": "10:26:50 PM",
+    "srcIP": "192.168.1.88",
+    "dstIP": "142.250.113.120",
+    "size": 1508,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:50.134Z"
+  },
+  {
+    "id": "gks36",
+    "time": "10:26:50 PM",
+    "srcIP": "192.168.1.69",
+    "dstIP": "142.250.34.178",
+    "size": 736,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:50.165Z"
+  },
+  {
+    "id": "6yh0k",
+    "time": "10:26:50 PM",
+    "srcIP": "192.168.1.61",
+    "dstIP": "142.250.160.11",
+    "size": 625,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:50.196Z"
+  },
+  {
+    "id": "xornam",
+    "time": "10:26:50 PM",
+    "srcIP": "192.168.1.57",
+    "dstIP": "142.250.174.143",
+    "size": 292,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:50.228Z"
+  },
+  {
+    "id": "kntmlq",
+    "time": "10:26:50 PM",
+    "srcIP": "192.168.1.85",
+    "dstIP": "142.250.117.45",
+    "size": 838,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:50.258Z"
+  },
+  {
+    "id": "uek4my",
+    "time": "10:26:50 PM",
+    "srcIP": "192.168.1.152",
+    "dstIP": "142.250.169.162",
+    "size": 1008,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:50.289Z"
+  },
+  {
+    "id": "f7161",
+    "time": "10:26:50 PM",
+    "srcIP": "192.168.1.146",
+    "dstIP": "142.250.54.34",
+    "size": 579,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:50.320Z"
+  },
+  {
+    "id": "gvvtb",
+    "time": "10:26:50 PM",
+    "srcIP": "192.168.1.165",
+    "dstIP": "142.250.63.194",
+    "size": 381,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:50.351Z"
+  },
+  {
+    "id": "8hxvhe",
+    "time": "10:26:50 PM",
+    "srcIP": "192.168.1.142",
+    "dstIP": "142.250.37.105",
+    "size": 510,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:50.381Z"
+  },
+  {
+    "id": "p9hbbb",
+    "time": "10:26:50 PM",
+    "srcIP": "192.168.1.107",
+    "dstIP": "142.250.69.16",
+    "size": 727,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:50.412Z"
+  },
+  {
+    "id": "8k3rrj",
+    "time": "10:26:50 PM",
+    "srcIP": "192.168.1.9",
+    "dstIP": "142.250.85.201",
+    "size": 113,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:50.444Z"
+  },
+  {
+    "id": "fftq1g",
+    "time": "10:26:50 PM",
+    "srcIP": "192.168.1.158",
+    "dstIP": "142.250.205.106",
+    "size": 931,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:50.475Z"
+  },
+  {
+    "id": "gz60w",
+    "time": "10:26:50 PM",
+    "srcIP": "192.168.1.89",
+    "dstIP": "142.250.235.228",
+    "size": 185,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:50.506Z"
+  },
+  {
+    "id": "j0qkm",
+    "time": "10:26:50 PM",
+    "srcIP": "192.168.1.226",
+    "dstIP": "142.250.129.7",
+    "size": 217,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:50.537Z"
+  },
+  {
+    "id": "a8pb2",
+    "time": "10:26:50 PM",
+    "srcIP": "192.168.1.148",
+    "dstIP": "142.250.136.148",
+    "size": 1226,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:50.568Z"
+  },
+  {
+    "id": "emrm0j",
+    "time": "10:26:50 PM",
+    "srcIP": "192.168.1.15",
+    "dstIP": "142.250.2.219",
+    "size": 575,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:50.599Z"
+  },
+  {
+    "id": "xaw2dl",
+    "time": "10:26:50 PM",
+    "srcIP": "192.168.1.72",
+    "dstIP": "142.250.145.137",
+    "size": 1550,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:50.630Z"
+  },
+  {
+    "id": "34rm8n",
+    "time": "10:26:50 PM",
+    "srcIP": "192.168.1.181",
+    "dstIP": "142.250.234.74",
+    "size": 181,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:50.661Z"
+  },
+  {
+    "id": "rrpiig",
+    "time": "10:26:50 PM",
+    "srcIP": "192.168.1.155",
+    "dstIP": "142.250.115.212",
+    "size": 310,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:50.691Z"
+  },
+  {
+    "id": "1yyxyi",
+    "time": "10:26:50 PM",
+    "srcIP": "192.168.1.213",
+    "dstIP": "142.250.35.48",
+    "size": 651,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:50.723Z"
+  },
+  {
+    "id": "9oqkud",
+    "time": "10:26:50 PM",
+    "srcIP": "192.168.1.172",
+    "dstIP": "142.250.248.149",
+    "size": 178,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:50.754Z"
+  },
+  {
+    "id": "zg7y9n",
+    "time": "10:26:50 PM",
+    "srcIP": "192.168.1.72",
+    "dstIP": "142.250.63.195",
+    "size": 1545,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:50.784Z"
+  },
+  {
+    "id": "3c4wu",
+    "time": "10:26:50 PM",
+    "srcIP": "192.168.1.123",
+    "dstIP": "142.250.116.129",
+    "size": 830,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:50.815Z"
+  },
+  {
+    "id": "7lny3",
+    "time": "10:26:50 PM",
+    "srcIP": "192.168.1.223",
+    "dstIP": "142.250.141.243",
+    "size": 1067,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:50.846Z"
+  },
+  {
+    "id": "2ia9t",
+    "time": "10:26:50 PM",
+    "srcIP": "192.168.1.35",
+    "dstIP": "142.250.40.223",
+    "size": 1017,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:50.877Z"
+  },
+  {
+    "id": "o081qq",
+    "time": "10:26:50 PM",
+    "srcIP": "192.168.1.165",
+    "dstIP": "142.250.229.118",
+    "size": 129,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:50.908Z"
+  },
+  {
+    "id": "ybynk",
+    "time": "10:26:50 PM",
+    "srcIP": "192.168.1.235",
+    "dstIP": "142.250.11.53",
+    "size": 360,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:50.939Z"
+  },
+  {
+    "id": "0bgmgb",
+    "time": "10:26:50 PM",
+    "srcIP": "192.168.1.149",
+    "dstIP": "142.250.81.11",
+    "size": 1254,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:50.970Z"
+  },
+  {
+    "id": "rb99ic",
+    "time": "10:26:51 PM",
+    "srcIP": "192.168.1.176",
+    "dstIP": "142.250.213.210",
+    "size": 298,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:51.000Z"
+  },
+  {
+    "id": "xbmzpyd",
+    "time": "10:26:51 PM",
+    "srcIP": "192.168.1.222",
+    "dstIP": "142.250.157.34",
+    "size": 650,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:51.031Z"
+  },
+  {
+    "id": "z1skoh",
+    "time": "10:26:51 PM",
+    "srcIP": "192.168.1.226",
+    "dstIP": "142.250.114.218",
+    "size": 603,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:51.063Z"
+  },
+  {
+    "id": "6yxhwc",
+    "time": "10:26:51 PM",
+    "srcIP": "192.168.1.208",
+    "dstIP": "142.250.217.186",
+    "size": 654,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:51.097Z"
+  },
+  {
+    "id": "my578l",
+    "time": "10:26:51 PM",
+    "srcIP": "192.168.1.252",
+    "dstIP": "142.250.227.84",
+    "size": 1202,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:51.125Z"
+  },
+  {
+    "id": "6sdhy",
+    "time": "10:26:51 PM",
+    "srcIP": "192.168.1.247",
+    "dstIP": "142.250.244.20",
+    "size": 1491,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:51.156Z"
+  },
+  {
+    "id": "tuvs93",
+    "time": "10:26:51 PM",
+    "srcIP": "192.168.1.72",
+    "dstIP": "142.250.60.151",
+    "size": 1244,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:51.188Z"
+  },
+  {
+    "id": "rulrga",
+    "time": "10:26:51 PM",
+    "srcIP": "192.168.1.252",
+    "dstIP": "142.250.131.61",
+    "size": 948,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:51.219Z"
+  },
+  {
+    "id": "8zng3",
+    "time": "10:26:51 PM",
+    "srcIP": "192.168.1.52",
+    "dstIP": "142.250.223.189",
+    "size": 923,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:51.250Z"
+  },
+  {
+    "id": "hw708a",
+    "time": "10:26:51 PM",
+    "srcIP": "192.168.1.19",
+    "dstIP": "142.250.45.17",
+    "size": 768,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:51.282Z"
+  },
+  {
+    "id": "3i23ow",
+    "time": "10:26:51 PM",
+    "srcIP": "192.168.1.216",
+    "dstIP": "142.250.18.140",
+    "size": 220,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:51.313Z"
+  },
+  {
+    "id": "9a0ggj",
+    "time": "10:26:51 PM",
+    "srcIP": "192.168.1.245",
+    "dstIP": "142.250.219.95",
+    "size": 243,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:51.344Z"
+  },
+  {
+    "id": "3ks1fh",
+    "time": "10:26:51 PM",
+    "srcIP": "192.168.1.235",
+    "dstIP": "142.250.168.23",
+    "size": 922,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:51.374Z"
+  },
+  {
+    "id": "6whjjs",
+    "time": "10:26:51 PM",
+    "srcIP": "192.168.1.232",
+    "dstIP": "142.250.107.201",
+    "size": 796,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:51.404Z"
+  },
+  {
+    "id": "vtu5pk",
+    "time": "10:26:51 PM",
+    "srcIP": "192.168.1.14",
+    "dstIP": "142.250.248.40",
+    "size": 1022,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:51.435Z"
+  },
+  {
+    "id": "ex2jm",
+    "time": "10:26:51 PM",
+    "srcIP": "192.168.1.226",
+    "dstIP": "142.250.231.13",
+    "size": 587,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:51.467Z"
+  },
+  {
+    "id": "i5kf4i",
+    "time": "10:26:51 PM",
+    "srcIP": "192.168.1.103",
+    "dstIP": "142.250.44.72",
+    "size": 1440,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:51.499Z"
+  },
+  {
+    "id": "detv9v",
+    "time": "10:26:51 PM",
+    "srcIP": "192.168.1.224",
+    "dstIP": "142.250.32.247",
+    "size": 647,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:51.529Z"
+  },
+  {
+    "id": "ydwgtf",
+    "time": "10:26:51 PM",
+    "srcIP": "192.168.1.81",
+    "dstIP": "142.250.168.178",
+    "size": 1165,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:51.560Z"
+  },
+  {
+    "id": "8bqt1s",
+    "time": "10:26:51 PM",
+    "srcIP": "192.168.1.86",
+    "dstIP": "142.250.166.1",
+    "size": 1120,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:51.590Z"
+  },
+  {
+    "id": "bgdw6",
+    "time": "10:26:51 PM",
+    "srcIP": "192.168.1.162",
+    "dstIP": "142.250.207.57",
+    "size": 667,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:51.621Z"
+  },
+  {
+    "id": "h1w84g",
+    "time": "10:26:51 PM",
+    "srcIP": "192.168.1.209",
+    "dstIP": "142.250.167.155",
+    "size": 805,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:51.652Z"
+  },
+  {
+    "id": "aopxua",
+    "time": "10:26:51 PM",
+    "srcIP": "192.168.1.4",
+    "dstIP": "142.250.192.91",
+    "size": 242,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:51.684Z"
+  },
+  {
+    "id": "aunawc",
+    "time": "10:26:51 PM",
+    "srcIP": "192.168.1.235",
+    "dstIP": "142.250.241.129",
+    "size": 368,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:51.715Z"
+  },
+  {
+    "id": "17q0n",
+    "time": "10:26:51 PM",
+    "srcIP": "192.168.1.51",
+    "dstIP": "142.250.126.226",
+    "size": 161,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:51.746Z"
+  },
+  {
+    "id": "rgj0ej",
+    "time": "10:26:51 PM",
+    "srcIP": "192.168.1.232",
+    "dstIP": "142.250.116.16",
+    "size": 109,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:51.776Z"
+  },
+  {
+    "id": "dlkot",
+    "time": "10:26:51 PM",
+    "srcIP": "192.168.1.33",
+    "dstIP": "142.250.15.8",
+    "size": 484,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:51.806Z"
+  },
+  {
+    "id": "hz9ois",
+    "time": "10:26:51 PM",
+    "srcIP": "192.168.1.168",
+    "dstIP": "142.250.149.189",
+    "size": 542,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:51.838Z"
+  },
+  {
+    "id": "8xjupn",
+    "time": "10:26:51 PM",
+    "srcIP": "192.168.1.128",
+    "dstIP": "142.250.156.16",
+    "size": 875,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:51.868Z"
+  },
+  {
+    "id": "ehx8ng",
+    "time": "10:26:51 PM",
+    "srcIP": "192.168.1.17",
+    "dstIP": "142.250.33.143",
+    "size": 523,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:51.899Z"
+  },
+  {
+    "id": "51z8vl",
+    "time": "10:26:51 PM",
+    "srcIP": "192.168.1.215",
+    "dstIP": "142.250.100.20",
+    "size": 842,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:51.930Z"
+  },
+  {
+    "id": "u3thsc",
+    "time": "10:26:51 PM",
+    "srcIP": "192.168.1.134",
+    "dstIP": "142.250.166.10",
+    "size": 859,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:51.961Z"
+  },
+  {
+    "id": "j5cuz",
+    "time": "10:26:51 PM",
+    "srcIP": "192.168.1.96",
+    "dstIP": "142.250.136.247",
+    "size": 1084,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:51.992Z"
+  },
+  {
+    "id": "4pwo28",
+    "time": "10:26:52 PM",
+    "srcIP": "192.168.1.227",
+    "dstIP": "142.250.55.199",
+    "size": 1081,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:52.022Z"
+  },
+  {
+    "id": "jmldyr",
+    "time": "10:26:52 PM",
+    "srcIP": "192.168.1.86",
+    "dstIP": "142.250.233.74",
+    "size": 428,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:52.053Z"
+  },
+  {
+    "id": "m5lzt4",
+    "time": "10:26:52 PM",
+    "srcIP": "192.168.1.84",
+    "dstIP": "142.250.55.172",
+    "size": 292,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:52.084Z"
+  },
+  {
+    "id": "584hf",
+    "time": "10:26:52 PM",
+    "srcIP": "192.168.1.0",
+    "dstIP": "142.250.221.199",
+    "size": 1375,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:52.116Z"
+  },
+  {
+    "id": "qfof4j",
+    "time": "10:26:52 PM",
+    "srcIP": "192.168.1.153",
+    "dstIP": "142.250.84.7",
+    "size": 1477,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:52.148Z"
+  },
+  {
+    "id": "xqtiv",
+    "time": "10:26:52 PM",
+    "srcIP": "192.168.1.82",
+    "dstIP": "142.250.253.73",
+    "size": 1252,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:52.178Z"
+  },
+  {
+    "id": "o213c2",
+    "time": "10:26:52 PM",
+    "srcIP": "192.168.1.237",
+    "dstIP": "142.250.20.163",
+    "size": 323,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:52.209Z"
+  },
+  {
+    "id": "dwjjg",
+    "time": "10:26:52 PM",
+    "srcIP": "192.168.1.124",
+    "dstIP": "142.250.237.243",
+    "size": 1485,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:52.240Z"
+  },
+  {
+    "id": "1ni82h",
+    "time": "10:26:52 PM",
+    "srcIP": "192.168.1.245",
+    "dstIP": "142.250.87.47",
+    "size": 1291,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:52.270Z"
+  },
+  {
+    "id": "vhe96f",
+    "time": "10:26:52 PM",
+    "srcIP": "192.168.1.39",
+    "dstIP": "142.250.180.4",
+    "size": 1233,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:52.301Z"
+  },
+  {
+    "id": "bt843s",
+    "time": "10:26:52 PM",
+    "srcIP": "192.168.1.11",
+    "dstIP": "142.250.129.82",
+    "size": 692,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:52.333Z"
+  },
+  {
+    "id": "sn01x",
+    "time": "10:26:52 PM",
+    "srcIP": "192.168.1.112",
+    "dstIP": "142.250.159.87",
+    "size": 864,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:52.363Z"
+  },
+  {
+    "id": "wgop6f",
+    "time": "10:26:52 PM",
+    "srcIP": "192.168.1.40",
+    "dstIP": "142.250.203.229",
+    "size": 386,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:52.394Z"
+  },
+  {
+    "id": "tbscfg",
+    "time": "10:26:52 PM",
+    "srcIP": "192.168.1.202",
+    "dstIP": "142.250.128.57",
+    "size": 322,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:52.425Z"
+  },
+  {
+    "id": "jlr5gl",
+    "time": "10:26:52 PM",
+    "srcIP": "192.168.1.103",
+    "dstIP": "142.250.218.107",
+    "size": 1433,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:52.457Z"
+  },
+  {
+    "id": "n582zs",
+    "time": "10:26:52 PM",
+    "srcIP": "192.168.1.203",
+    "dstIP": "142.250.30.110",
+    "size": 736,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:52.488Z"
+  },
+  {
+    "id": "jsquna",
+    "time": "10:26:52 PM",
+    "srcIP": "192.168.1.34",
+    "dstIP": "142.250.244.26",
+    "size": 122,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:52.519Z"
+  },
+  {
+    "id": "lbmtlm",
+    "time": "10:26:52 PM",
+    "srcIP": "192.168.1.254",
+    "dstIP": "142.250.175.147",
+    "size": 712,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:52.550Z"
+  },
+  {
+    "id": "tx2rs",
+    "time": "10:26:52 PM",
+    "srcIP": "192.168.1.1",
+    "dstIP": "142.250.40.243",
+    "size": 702,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:52.580Z"
+  },
+  {
+    "id": "q37ti8",
+    "time": "10:26:52 PM",
+    "srcIP": "192.168.1.131",
+    "dstIP": "142.250.183.178",
+    "size": 1059,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:52.610Z"
+  },
+  {
+    "id": "jqf2ue",
+    "time": "10:26:52 PM",
+    "srcIP": "192.168.1.19",
+    "dstIP": "142.250.118.31",
+    "size": 824,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:52.641Z"
+  },
+  {
+    "id": "1wqhse",
+    "time": "10:26:52 PM",
+    "srcIP": "192.168.1.155",
+    "dstIP": "142.250.211.68",
+    "size": 906,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:52.673Z"
+  },
+  {
+    "id": "hvfz2",
+    "time": "10:26:52 PM",
+    "srcIP": "192.168.1.40",
+    "dstIP": "142.250.95.39",
+    "size": 1180,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:52.703Z"
+  },
+  {
+    "id": "0w9lt",
+    "time": "10:26:52 PM",
+    "srcIP": "192.168.1.5",
+    "dstIP": "142.250.205.43",
+    "size": 730,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:52.735Z"
+  },
+  {
+    "id": "so3qk",
+    "time": "10:26:52 PM",
+    "srcIP": "192.168.1.135",
+    "dstIP": "142.250.36.156",
+    "size": 879,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:52.765Z"
+  },
+  {
+    "id": "5jzfgv",
+    "time": "10:26:52 PM",
+    "srcIP": "192.168.1.190",
+    "dstIP": "142.250.45.84",
+    "size": 1122,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:52.795Z"
+  },
+  {
+    "id": "b83zmi",
+    "time": "10:26:52 PM",
+    "srcIP": "192.168.1.96",
+    "dstIP": "142.250.35.45",
+    "size": 1461,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:52.826Z"
+  },
+  {
+    "id": "efygjt",
+    "time": "10:26:52 PM",
+    "srcIP": "192.168.1.54",
+    "dstIP": "142.250.223.207",
+    "size": 788,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:52.858Z"
+  },
+  {
+    "id": "4lazut",
+    "time": "10:26:52 PM",
+    "srcIP": "192.168.1.217",
+    "dstIP": "142.250.63.33",
+    "size": 158,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:52.889Z"
+  },
+  {
+    "id": "iclkf",
+    "time": "10:26:52 PM",
+    "srcIP": "192.168.1.217",
+    "dstIP": "142.250.115.176",
+    "size": 1455,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:52.922Z"
+  },
+  {
+    "id": "ikq88q",
+    "time": "10:26:52 PM",
+    "srcIP": "192.168.1.174",
+    "dstIP": "142.250.37.247",
+    "size": 1155,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:52.950Z"
+  },
+  {
+    "id": "lmiq6j",
+    "time": "10:26:52 PM",
+    "srcIP": "192.168.1.24",
+    "dstIP": "142.250.122.110",
+    "size": 1143,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:52.981Z"
+  },
+  {
+    "id": "3531da9",
+    "time": "10:26:53 PM",
+    "srcIP": "192.168.1.149",
+    "dstIP": "142.250.20.27",
+    "size": 1227,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:53.013Z"
+  },
+  {
+    "id": "3b8y16",
+    "time": "10:26:53 PM",
+    "srcIP": "192.168.1.223",
+    "dstIP": "142.250.48.159",
+    "size": 368,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:53.044Z"
+  },
+  {
+    "id": "xk3rvi",
+    "time": "10:26:53 PM",
+    "srcIP": "192.168.1.237",
+    "dstIP": "142.250.32.188",
+    "size": 956,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:53.074Z"
+  },
+  {
+    "id": "xtfexn",
+    "time": "10:26:53 PM",
+    "srcIP": "192.168.1.216",
+    "dstIP": "142.250.58.170",
+    "size": 849,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:53.105Z"
+  },
+  {
+    "id": "i4dg6i",
+    "time": "10:26:53 PM",
+    "srcIP": "192.168.1.189",
+    "dstIP": "142.250.198.23",
+    "size": 963,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:53.137Z"
+  },
+  {
+    "id": "hmaui4",
+    "time": "10:26:53 PM",
+    "srcIP": "192.168.1.108",
+    "dstIP": "142.250.210.240",
+    "size": 1333,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:53.169Z"
+  },
+  {
+    "id": "xuy3kp",
+    "time": "10:26:53 PM",
+    "srcIP": "192.168.1.192",
+    "dstIP": "142.250.90.142",
+    "size": 788,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:53.198Z"
+  },
+  {
+    "id": "x2l5jc",
+    "time": "10:26:53 PM",
+    "srcIP": "192.168.1.44",
+    "dstIP": "142.250.48.250",
+    "size": 415,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:53.229Z"
+  },
+  {
+    "id": "qxqbv",
+    "time": "10:26:53 PM",
+    "srcIP": "192.168.1.198",
+    "dstIP": "142.250.121.252",
+    "size": 1359,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:53.260Z"
+  },
+  {
+    "id": "3b3bqj",
+    "time": "10:26:53 PM",
+    "srcIP": "192.168.1.108",
+    "dstIP": "142.250.235.143",
+    "size": 417,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:53.291Z"
+  },
+  {
+    "id": "2i33k4",
+    "time": "10:26:53 PM",
+    "srcIP": "192.168.1.83",
+    "dstIP": "142.250.15.112",
+    "size": 979,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:53.321Z"
+  },
+  {
+    "id": "6d4jj4",
+    "time": "10:26:53 PM",
+    "srcIP": "192.168.1.86",
+    "dstIP": "142.250.63.87",
+    "size": 465,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:53.353Z"
+  },
+  {
+    "id": "2kwpic",
+    "time": "10:26:53 PM",
+    "srcIP": "192.168.1.54",
+    "dstIP": "142.250.123.232",
+    "size": 441,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:53.384Z"
+  },
+  {
+    "id": "3wtvy7",
+    "time": "10:26:53 PM",
+    "srcIP": "192.168.1.46",
+    "dstIP": "142.250.72.134",
+    "size": 1421,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:53.416Z"
+  },
+  {
+    "id": "blsghx",
+    "time": "10:26:53 PM",
+    "srcIP": "192.168.1.133",
+    "dstIP": "142.250.229.158",
+    "size": 986,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:53.448Z"
+  },
+  {
+    "id": "faxftq",
+    "time": "10:26:53 PM",
+    "srcIP": "192.168.1.133",
+    "dstIP": "142.250.47.161",
+    "size": 1024,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:53.478Z"
+  },
+  {
+    "id": "qqnqgs",
+    "time": "10:26:53 PM",
+    "srcIP": "192.168.1.148",
+    "dstIP": "142.250.4.105",
+    "size": 540,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:53.508Z"
+  },
+  {
+    "id": "meqpl6",
+    "time": "10:26:53 PM",
+    "srcIP": "192.168.1.198",
+    "dstIP": "142.250.83.112",
+    "size": 1425,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:53.539Z"
+  },
+  {
+    "id": "oox9lp",
+    "time": "10:26:53 PM",
+    "srcIP": "192.168.1.50",
+    "dstIP": "142.250.188.43",
+    "size": 1084,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:53.574Z"
+  },
+  {
+    "id": "wduhu6",
+    "time": "10:26:53 PM",
+    "srcIP": "192.168.1.28",
+    "dstIP": "142.250.81.53",
+    "size": 1497,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:53.601Z"
+  },
+  {
+    "id": "ubu3vq",
+    "time": "10:26:53 PM",
+    "srcIP": "192.168.1.18",
+    "dstIP": "142.250.8.204",
+    "size": 963,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:53.632Z"
+  },
+  {
+    "id": "xw975h",
+    "time": "10:26:53 PM",
+    "srcIP": "192.168.1.10",
+    "dstIP": "142.250.249.138",
+    "size": 912,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:53.663Z"
+  },
+  {
+    "id": "51gukm",
+    "time": "10:26:53 PM",
+    "srcIP": "192.168.1.165",
+    "dstIP": "142.250.234.198",
+    "size": 1399,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:53.693Z"
+  },
+  {
+    "id": "uxp6j",
+    "time": "10:26:53 PM",
+    "srcIP": "192.168.1.214",
+    "dstIP": "142.250.114.12",
+    "size": 737,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:53.726Z"
+  },
+  {
+    "id": "3i65di",
+    "time": "10:26:53 PM",
+    "srcIP": "192.168.1.0",
+    "dstIP": "142.250.243.129",
+    "size": 703,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:53.755Z"
+  },
+  {
+    "id": "qr9cm",
+    "time": "10:26:53 PM",
+    "srcIP": "192.168.1.69",
+    "dstIP": "142.250.207.21",
+    "size": 374,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:53.787Z"
+  },
+  {
+    "id": "do60om",
+    "time": "10:26:53 PM",
+    "srcIP": "192.168.1.170",
+    "dstIP": "142.250.140.184",
+    "size": 934,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:53.818Z"
+  },
+  {
+    "id": "va05pm",
+    "time": "10:26:53 PM",
+    "srcIP": "192.168.1.68",
+    "dstIP": "142.250.189.140",
+    "size": 1267,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:53.848Z"
+  },
+  {
+    "id": "9jo578",
+    "time": "10:26:53 PM",
+    "srcIP": "192.168.1.78",
+    "dstIP": "142.250.145.166",
+    "size": 983,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:53.879Z"
+  },
+  {
+    "id": "p6zaom",
+    "time": "10:26:53 PM",
+    "srcIP": "192.168.1.246",
+    "dstIP": "142.250.72.56",
+    "size": 411,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:53.910Z"
+  },
+  {
+    "id": "hj65s",
+    "time": "10:26:53 PM",
+    "srcIP": "192.168.1.212",
+    "dstIP": "142.250.183.41",
+    "size": 373,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:53.942Z"
+  },
+  {
+    "id": "dej32",
+    "time": "10:26:53 PM",
+    "srcIP": "192.168.1.200",
+    "dstIP": "142.250.208.120",
+    "size": 1151,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:53.973Z"
+  },
+  {
+    "id": "deflvi",
+    "time": "10:26:54 PM",
+    "srcIP": "192.168.1.236",
+    "dstIP": "142.250.203.6",
+    "size": 935,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:54.003Z"
+  },
+  {
+    "id": "lo1ukbj",
+    "time": "10:26:54 PM",
+    "srcIP": "192.168.1.129",
+    "dstIP": "142.250.220.254",
+    "size": 552,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:54.036Z"
+  },
+  {
+    "id": "bvwop8",
+    "time": "10:26:54 PM",
+    "srcIP": "192.168.1.110",
+    "dstIP": "142.250.225.14",
+    "size": 1287,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:54.066Z"
+  },
+  {
+    "id": "6kgmsh",
+    "time": "10:26:54 PM",
+    "srcIP": "192.168.1.102",
+    "dstIP": "142.250.173.58",
+    "size": 1412,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:54.097Z"
+  },
+  {
+    "id": "r26uxi",
+    "time": "10:26:54 PM",
+    "srcIP": "192.168.1.132",
+    "dstIP": "142.250.130.177",
+    "size": 921,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:54.128Z"
+  },
+  {
+    "id": "o0s4v",
+    "time": "10:26:54 PM",
+    "srcIP": "192.168.1.150",
+    "dstIP": "142.250.49.134",
+    "size": 732,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:54.158Z"
+  },
+  {
+    "id": "dcv6p",
+    "time": "10:26:54 PM",
+    "srcIP": "192.168.1.215",
+    "dstIP": "142.250.138.130",
+    "size": 412,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:54.189Z"
+  },
+  {
+    "id": "s7vz7r",
+    "time": "10:26:54 PM",
+    "srcIP": "192.168.1.105",
+    "dstIP": "142.250.97.26",
+    "size": 273,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:54.220Z"
+  },
+  {
+    "id": "na3u5f",
+    "time": "10:26:54 PM",
+    "srcIP": "192.168.1.129",
+    "dstIP": "142.250.81.1",
+    "size": 871,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:54.251Z"
+  },
+  {
+    "id": "nwgz3r",
+    "time": "10:26:54 PM",
+    "srcIP": "192.168.1.137",
+    "dstIP": "142.250.177.11",
+    "size": 442,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:54.284Z"
+  },
+  {
+    "id": "mu2i6a",
+    "time": "10:26:54 PM",
+    "srcIP": "192.168.1.65",
+    "dstIP": "142.250.43.29",
+    "size": 1175,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:54.315Z"
+  },
+  {
+    "id": "oe8fw9",
+    "time": "10:26:54 PM",
+    "srcIP": "192.168.1.90",
+    "dstIP": "142.250.208.151",
+    "size": 1363,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:54.344Z"
+  },
+  {
+    "id": "2ae0u",
+    "time": "10:26:54 PM",
+    "srcIP": "192.168.1.161",
+    "dstIP": "142.250.99.68",
+    "size": 1424,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:54.375Z"
+  },
+  {
+    "id": "2np2n",
+    "time": "10:26:54 PM",
+    "srcIP": "192.168.1.162",
+    "dstIP": "142.250.182.57",
+    "size": 1469,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:54.406Z"
+  },
+  {
+    "id": "diuh9",
+    "time": "10:26:54 PM",
+    "srcIP": "192.168.1.199",
+    "dstIP": "142.250.102.149",
+    "size": 377,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:54.438Z"
+  },
+  {
+    "id": "bhwe7c",
+    "time": "10:26:54 PM",
+    "srcIP": "192.168.1.103",
+    "dstIP": "142.250.12.14",
+    "size": 281,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:54.469Z"
+  },
+  {
+    "id": "pqok6x",
+    "time": "10:26:54 PM",
+    "srcIP": "192.168.1.129",
+    "dstIP": "142.250.209.30",
+    "size": 927,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:54.511Z"
+  },
+  {
+    "id": "kkegel",
+    "time": "10:26:54 PM",
+    "srcIP": "192.168.1.10",
+    "dstIP": "142.250.170.112",
+    "size": 902,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:54.530Z"
+  },
+  {
+    "id": "7zydq",
+    "time": "10:26:54 PM",
+    "srcIP": "192.168.1.233",
+    "dstIP": "142.250.151.192",
+    "size": 258,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:54.561Z"
+  },
+  {
+    "id": "13q6t",
+    "time": "10:26:54 PM",
+    "srcIP": "192.168.1.250",
+    "dstIP": "142.250.11.86",
+    "size": 916,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:54.592Z"
+  },
+  {
+    "id": "i1n11f",
+    "time": "10:26:54 PM",
+    "srcIP": "192.168.1.66",
+    "dstIP": "142.250.55.212",
+    "size": 1245,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:54.623Z"
+  },
+  {
+    "id": "q69x6k",
+    "time": "10:26:54 PM",
+    "srcIP": "192.168.1.120",
+    "dstIP": "142.250.215.54",
+    "size": 460,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:54.654Z"
+  },
+  {
+    "id": "i4n7sg",
+    "time": "10:26:54 PM",
+    "srcIP": "192.168.1.163",
+    "dstIP": "142.250.49.3",
+    "size": 1374,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:54.685Z"
+  },
+  {
+    "id": "kznwdg",
+    "time": "10:26:54 PM",
+    "srcIP": "192.168.1.1",
+    "dstIP": "142.250.78.216",
+    "size": 1203,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:54.715Z"
+  },
+  {
+    "id": "lwiz0j",
+    "time": "10:26:54 PM",
+    "srcIP": "192.168.1.46",
+    "dstIP": "142.250.73.183",
+    "size": 131,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:54.747Z"
+  },
+  {
+    "id": "tx87yjb",
+    "time": "10:26:54 PM",
+    "srcIP": "192.168.1.46",
+    "dstIP": "142.250.116.85",
+    "size": 1549,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:54.778Z"
+  },
+  {
+    "id": "70gyi",
+    "time": "10:26:54 PM",
+    "srcIP": "192.168.1.55",
+    "dstIP": "142.250.192.62",
+    "size": 1414,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:54.809Z"
+  },
+  {
+    "id": "gssflo",
+    "time": "10:26:54 PM",
+    "srcIP": "192.168.1.61",
+    "dstIP": "142.250.104.248",
+    "size": 723,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:54.840Z"
+  },
+  {
+    "id": "d4c9ef",
+    "time": "10:26:54 PM",
+    "srcIP": "192.168.1.18",
+    "dstIP": "142.250.234.125",
+    "size": 601,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:54.871Z"
+  },
+  {
+    "id": "urfgp4",
+    "time": "10:26:54 PM",
+    "srcIP": "192.168.1.180",
+    "dstIP": "142.250.153.132",
+    "size": 1353,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:54.903Z"
+  },
+  {
+    "id": "tcuai",
+    "time": "10:26:54 PM",
+    "srcIP": "192.168.1.26",
+    "dstIP": "142.250.170.91",
+    "size": 569,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:54.933Z"
+  },
+  {
+    "id": "9lmuz",
+    "time": "10:26:54 PM",
+    "srcIP": "192.168.1.23",
+    "dstIP": "142.250.71.175",
+    "size": 404,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:54.965Z"
+  },
+  {
+    "id": "e65wqa",
+    "time": "10:26:54 PM",
+    "srcIP": "192.168.1.199",
+    "dstIP": "142.250.46.30",
+    "size": 1012,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:54.995Z"
+  },
+  {
+    "id": "3o8hb8",
+    "time": "10:26:55 PM",
+    "srcIP": "192.168.1.91",
+    "dstIP": "142.250.24.81",
+    "size": 1115,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:55.026Z"
+  },
+  {
+    "id": "oojpxc",
+    "time": "10:26:55 PM",
+    "srcIP": "192.168.1.16",
+    "dstIP": "142.250.237.97",
+    "size": 517,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:55.057Z"
+  },
+  {
+    "id": "s6g73",
+    "time": "10:26:55 PM",
+    "srcIP": "192.168.1.91",
+    "dstIP": "142.250.194.116",
+    "size": 439,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:55.088Z"
+  },
+  {
+    "id": "1paonw",
+    "time": "10:26:55 PM",
+    "srcIP": "192.168.1.192",
+    "dstIP": "142.250.107.92",
+    "size": 1532,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:55.119Z"
+  },
+  {
+    "id": "hvws8q",
+    "time": "10:26:55 PM",
+    "srcIP": "192.168.1.70",
+    "dstIP": "142.250.117.20",
+    "size": 1022,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:55.150Z"
+  },
+  {
+    "id": "yk1r6l",
+    "time": "10:26:55 PM",
+    "srcIP": "192.168.1.159",
+    "dstIP": "142.250.129.138",
+    "size": 166,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:55.181Z"
+  },
+  {
+    "id": "bcet9i",
+    "time": "10:26:55 PM",
+    "srcIP": "192.168.1.55",
+    "dstIP": "142.250.191.214",
+    "size": 174,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:55.213Z"
+  },
+  {
+    "id": "3n8a8n",
+    "time": "10:26:55 PM",
+    "srcIP": "192.168.1.152",
+    "dstIP": "142.250.55.79",
+    "size": 1018,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:55.244Z"
+  },
+  {
+    "id": "okxmq8",
+    "time": "10:26:55 PM",
+    "srcIP": "192.168.1.21",
+    "dstIP": "142.250.79.10",
+    "size": 359,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:55.275Z"
+  },
+  {
+    "id": "19utf9",
+    "time": "10:26:55 PM",
+    "srcIP": "192.168.1.247",
+    "dstIP": "142.250.238.152",
+    "size": 202,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:55.310Z"
+  },
+  {
+    "id": "u3m0wm",
+    "time": "10:26:55 PM",
+    "srcIP": "192.168.1.14",
+    "dstIP": "142.250.206.49",
+    "size": 430,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:55.338Z"
+  },
+  {
+    "id": "79k2cx",
+    "time": "10:26:55 PM",
+    "srcIP": "192.168.1.187",
+    "dstIP": "142.250.106.87",
+    "size": 335,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:55.370Z"
+  },
+  {
+    "id": "7cevqw",
+    "time": "10:26:55 PM",
+    "srcIP": "192.168.1.124",
+    "dstIP": "142.250.101.53",
+    "size": 612,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:55.401Z"
+  },
+  {
+    "id": "gjt10f",
+    "time": "10:26:55 PM",
+    "srcIP": "192.168.1.246",
+    "dstIP": "142.250.137.146",
+    "size": 1368,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:55.431Z"
+  },
+  {
+    "id": "bgup7",
+    "time": "10:26:55 PM",
+    "srcIP": "192.168.1.136",
+    "dstIP": "142.250.19.5",
+    "size": 969,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:55.463Z"
+  },
+  {
+    "id": "hiu5n",
+    "time": "10:26:55 PM",
+    "srcIP": "192.168.1.220",
+    "dstIP": "142.250.232.31",
+    "size": 341,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:55.494Z"
+  },
+  {
+    "id": "hmqfw",
+    "time": "10:26:55 PM",
+    "srcIP": "192.168.1.118",
+    "dstIP": "142.250.56.183",
+    "size": 1504,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:55.525Z"
+  },
+  {
+    "id": "34ypjs",
+    "time": "10:26:55 PM",
+    "srcIP": "192.168.1.167",
+    "dstIP": "142.250.1.162",
+    "size": 203,
+    "protocol": "TLSv1.3",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:55.556Z"
+  },
+  {
+    "id": "tg96m",
+    "time": "10:26:55 PM",
+    "srcIP": "192.168.1.151",
+    "dstIP": "142.250.69.108",
+    "size": 426,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:55.586Z"
+  },
+  {
+    "id": "9npd44",
+    "time": "10:26:55 PM",
+    "srcIP": "192.168.1.216",
+    "dstIP": "142.250.226.84",
+    "size": 148,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:55.617Z"
+  },
+  {
+    "id": "sanl2g",
+    "time": "10:26:55 PM",
+    "srcIP": "192.168.1.222",
+    "dstIP": "142.250.116.238",
+    "size": 1129,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:55.648Z"
+  },
+  {
+    "id": "l7z1uc",
+    "time": "10:26:55 PM",
+    "srcIP": "192.168.1.83",
+    "dstIP": "142.250.157.223",
+    "size": 417,
+    "protocol": "HTTP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:55.679Z"
+  },
+  {
+    "id": "mnyhc",
+    "time": "10:26:55 PM",
+    "srcIP": "192.168.1.51",
+    "dstIP": "142.250.93.65",
+    "size": 672,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:55.710Z"
+  },
+  {
+    "id": "qlltz",
+    "time": "10:26:55 PM",
+    "srcIP": "192.168.1.66",
+    "dstIP": "142.250.151.93",
+    "size": 789,
+    "protocol": "UDP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:55.741Z"
+  },
+  {
+    "id": "dwddo",
+    "time": "10:26:55 PM",
+    "srcIP": "192.168.1.121",
+    "dstIP": "142.250.118.163",
+    "size": 830,
+    "protocol": "HTTPS",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:55.773Z"
+  },
+  {
+    "id": "do34z",
+    "time": "10:26:55 PM",
+    "srcIP": "192.168.1.190",
+    "dstIP": "142.250.177.176",
+    "size": 767,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:55.803Z"
+  },
+  {
+    "id": "s0zm",
+    "time": "10:26:55 PM",
+    "srcIP": "192.168.1.72",
+    "dstIP": "142.250.229.97",
+    "size": 1408,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:55.834Z"
+  },
+  {
+    "id": "2yycye",
+    "time": "10:26:55 PM",
+    "srcIP": "192.168.1.248",
+    "dstIP": "142.250.42.156",
+    "size": 285,
+    "protocol": "TCP",
+    "encrypted": false,
+    "analyzedAt": "2026-04-09T15:26:55.865Z"
+  },
+  {
+    "id": "0dg1xn",
+    "time": "10:26:55 PM",
+    "srcIP": "192.168.1.35",
+    "dstIP": "142.250.244.19",
+    "size": 1495,
+    "protocol": "QUIC",
+    "encrypted": true,
+    "analyzedAt": "2026-04-09T15:26:55.896Z"
   }
 ]
