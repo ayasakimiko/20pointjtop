@@ -1,0 +1,126 @@
+/* style.css */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #ffe6f2 0%, #ffcbe5 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: #ffffff;
+    width: 400px;
+    border-radius: 24px;
+    padding: 30px;
+    box-shadow: 0 15px 35px rgba(255, 153, 204, 0.2);
+    text-align: center;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    background: #fff0f6;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+.tab-btn {
+    flex: 1;
+    border: none;
+    background: transparent;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    color: #ff85c0;
+    transition: all 0.3s ease;
+}
+
+.tab-btn.active {
+    background: #ff85c0;
+    color: white;
+    box-shadow: 0 4px 10px rgba(255, 133, 192, 0.3);
+}
+
+h2 {
+    color: #eb2f96;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    font-size: 0.85rem;
+    color: #ff85c0;
+    margin-bottom: 20px;
+}
+
+.form-section {
+    display: none;
+    animation: fadeIn 0.4s ease;
+}
+
+.form-section.active-form {
+    display: block;
+}
+
+input {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 15px;
+    border: 2px solid #ffebf3;
+    border-radius: 12px;
+    outline: none;
+    font-size: 1rem;
+    transition: border 0.3s;
+}
+
+input:focus {
+    border-color: #ff85c0;
+    background: #fffaff;
+}
+
+.btn {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 12px;
+    background: #ff69b4;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.1s;
+}
+
+.btn:hover {
+    background: #f759ab;
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+.link {
+    margin-top: 15px;
+    color: #ff85c0;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.link:hover {
+    color: #eb2f96;
+    text-decoration: underline;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}

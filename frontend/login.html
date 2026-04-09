@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login System</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="./login.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="tabs">
+            <button class="tab-btn active" onclick="switchTab('user-login')">User Login</button>
+            <button class="tab-btn" onclick="switchTab('admin-login')">Admin Login</button>
+            <button class="tab-btn" onclick="switchTab('register')">Sign Up</button>
+        </div>
+
+        <div id="user-login" class="form-section active-form">
+            <h2>User Login 🌸</h2>
+            <form onsubmit="handleAuth(event, 'login', 'user')">
+                <input type="text" id="user-username" placeholder="Username" required>
+                <input type="password" id="user-password" placeholder="Password" required>
+                <button type="submit" class="btn">เข้าสู่ระบบ</button>
+                <p class="link" onclick="switchTab('forgot-password')">ลืมรหัสผ่านใช่ไหม?</p>
+            </form>
+        </div>
+
+        <div id="admin-login" class="form-section">
+            <h2>Admin Login 👑</h2>
+            <form onsubmit="handleAuth(event, 'login', 'admin')">
+                <input type="text" id="admin-username" placeholder="Username" required>
+                <input type="password" id="admin-password" placeholder="Password" required>
+                <button type="submit" class="btn">เข้าสู่ระบบ (แอดมิน)</button>
+            </form>
+        </div>
+
+        <div id="register" class="form-section">
+            <h2>Register ✨</h2>
+            <p class="subtitle">สมาชิกลำดับที่ 1 จะได้เป็น Admin</p>
+            <form onsubmit="handleAuth(event, 'register')">
+                <input type="text" id="reg-username" placeholder="ตั้งชื่อ Username" required>
+                <input type="password" id="reg-password" placeholder="ตั้งรหัสผ่าน" required>
+                <button type="submit" class="btn">สมัครสมาชิก</button>
+            </form>
+        </div>
+
+        <div id="forgot-password" class="form-section">
+            <h2>Reset Password 🔑</h2>
+            <form onsubmit="handleAuth(event, 'reset')">
+                <input type="text" id="reset-username" placeholder="Username ของคุณ" required>
+                <input type="password" id="reset-newpassword" placeholder="รหัสผ่านใหม่ที่ต้องการ" required>
+                <button type="submit" class="btn">เปลี่ยนรหัสผ่าน</button>
+                <p class="link" onclick="switchTab('user-login')">กลับไปหน้าเข้าสู่ระบบ</p>
+            </form>
+        </div>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+
+</html>
