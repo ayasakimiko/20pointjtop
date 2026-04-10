@@ -179,25 +179,26 @@ function getLocalIP() {
   return null;
 }
 
-function startTshark(io, iface = '6,7,8,10', filter = '') {
+function startTshark(io, iface = '5', filter = '') {
   const tsharkPath = 'C:\\Program Files\\Wireshark\\tshark.exe';
 
-  // 🔥 auto filter
-  if (!filter) {
+  // 🔥 auto filter - validate and auto-correct invalid filters
+  if (!filter || filter.trim() === 'ip') {
     const myIP = getLocalIP();
 
     if (myIP) {
-      console.log('Using IP filter:', myIP);
+      console.log('✅ Using IP filter:', myIP);
       filter = `host ${myIP}`;
     } else {
       console.warn('⚠️ Cannot detect local IP');
+      filter = '';
     }
   }
 
-  // รองรับหลาย interface คั่นด้วย comma เช่น '6,7,10'
+  // รองรับหลาย interface คั่นด้วย comma เช่น '5,6,7'
   const ifaceList = String(iface).split(',').map(s => s.trim()).filter(Boolean);
   const ifaceArgs = ifaceList.flatMap(i => ['-i', i]);
-  console.log('Capturing on interfaces:', ifaceList.join(', '));
+  console.log('📡 Capturing on interfaces:', ifaceList.join(', '));
 
   const args = [
     ...ifaceArgs,
@@ -216,7 +217,10 @@ function startTshark(io, iface = '6,7,8,10', filter = '') {
 
   if (filter) {
     args.unshift('-f', filter);
+    console.log(`🔍 Filter: "${filter}"`);
   }
+
+  console.log('🚀 Running tshark command:', tsharkPath, args.join(' '));
 
   tshark = spawn(tsharkPath, args, { windowsHide: true });
 
@@ -236,14 +240,20 @@ function startTshark(io, iface = '6,7,8,10', filter = '') {
   });
 
   tshark.stderr.on('data', (err) => {
-    console.error('[tshark]', err.toString());
-    if (io) io.emit('error', { message: err.toString() });
+    const errMsg = err.toString().trim();
+    console.error('❌ [tshark stderr]', errMsg);
+    if (io) io.emit('error', { message: errMsg });
   });
 
   tshark.on('exit', (code, signal) => {
     capturing = false;
+    if (code !== 0 && code !== null) {
+      console.error(`❌ tshark exited with ERROR code=${code} signal=${signal}`);
+      if (io) io.emit('error', { message: `Capture failed: tshark exited with code ${code}` });
+    } else {
+      console.log(`⏹ tshark exited code=${code} signal=${signal}`);
+    }
     if (io) io.emit('capture:status', { capturing: false });
-    console.log(`tshark exited code=${code} signal=${signal}`);
   });
 
   if (statsTimer) clearInterval(statsTimer);
@@ -264,12 +274,13 @@ function stopTshark() {
   capturing = false;
 
   if (tshark) {
+    console.log('🔪 Killing tshark process...');
     tshark.kill('SIGTERM');
     tshark = null;
   }
 
   // Fallback: kill all tshark processes
-  exec('taskkill /IM tshark.exe /F', () => {});
+  exec('taskkill /IM tshark.exe /F 2>nul', () => {});
 
   if (statsTimer) {
     clearInterval(statsTimer);
@@ -278,12 +289,19 @@ function stopTshark() {
 }
 
 module.exports = {
-  start(iface = '6,7,8,10', filter = '', io) {
+  start(iface = '5', filter = '', io) {
     if (capturing) {
+      console.warn('⚠️ Capture already running, stopping first...');
       stopTshark();
+      // Give tshark time to fully exit before restarting
+      setTimeout(() => {
+        resetStats();
+        startTshark(io, iface, filter);
+      }, 500);
+    } else {
+      resetStats();
+      startTshark(io, iface, filter);
     }
-    resetStats();
-    startTshark(io, iface, filter);
   },
 
   stop() {

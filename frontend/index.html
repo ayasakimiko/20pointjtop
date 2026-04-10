@@ -872,10 +872,10 @@ tbody tr:hover td {
 
       <div class="modal-section-label">เลือก Interface</div>
       <div class="iface-grid">
-        <label class="iface-chip"><input type="checkbox" id="iface-6" value="6" checked> Wi-Fi (6)</label>
-        <label class="iface-chip"><input type="checkbox" id="iface-7" value="7" checked> Wi-Fi 5 (7)</label>
-        <label class="iface-chip"><input type="checkbox" id="iface-8" value="8" checked> Wi-Fi 2 (8)</label>
-        <label class="iface-chip"><input type="checkbox" id="iface-10" value="10" checked> Ethernet (10)</label>
+        <label class="iface-chip"><input type="checkbox" id="iface-5" value="5" checked> Wi-Fi (5)</label>
+        <label class="iface-chip"><input type="checkbox" id="iface-1" value="1"> Local Network 10 (1)</label>
+        <label class="iface-chip"><input type="checkbox" id="iface-2" value="2"> Local Network 9 (2)</label>
+        <label class="iface-chip"><input type="checkbox" id="iface-3" value="3"> Local Network 8 (3)</label>
       </div>
 
       <div class="modal-section-label">กรองโปรโตคอล <span style="font-weight:400;text-transform:none">(ไม่เลือก = ทั้งหมด)</span></div>
@@ -1056,6 +1056,7 @@ tbody tr:hover td {
   let currentFilter = 'ALL';
   let packets = [];
   let alertLog = [];
+  let captureStarting = false;  // Prevent double-click
   const MAX_ROWS = 20;
   const MAX_ALERTS = 10;
 
@@ -1429,6 +1430,11 @@ tbody tr:hover td {
   });
 
   function startCaptureFromModal() {
+    if (captureStarting) {
+      console.warn('⚠️ Capture is already starting, please wait...');
+      return;
+    }
+    
     const ifaces = [...document.querySelectorAll('.iface-grid input:checked')]
       .map(el => el.value).join(',');
     if (!ifaces) { alert('กรุณาเลือก Interface อย่างน้อย 1 รายการ'); return; }
@@ -1459,6 +1465,9 @@ tbody tr:hover td {
       });
     }
 
+    captureStarting = true;
+    setTimeout(() => { captureStarting = false; }, 2000);  // Prevent re-trigger for 2 seconds
+    
     closeModal();
     socket.emit('capture:start', { iface: ifaces, filter });
   }
